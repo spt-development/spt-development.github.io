@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="bg-dark text-light">
+
+    {%- include header.html -%}
+
+    <section class="container flex-grow-1" aria-label="Content">
+	<header class="row">
+	    <div class="col">
+		<h1>{{ page.title | escape }}</h1>
+	    </div>
+	</header>
+        <div class="row">
+            {{ content }}
+        </div>
+    </section>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

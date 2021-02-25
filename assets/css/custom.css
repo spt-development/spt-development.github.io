@@ -7,6 +7,16 @@
     src: url('../fonts/MuseoSans_500.woff') format('woff'), url('../fonts/MuseoSans_500.ttf') format('truetype');
 }
 
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #e9ecef !important;
+}
+
 a, p, li, h2, h3, h4, em, table, span {
     font-family: "Museo Sans 500", "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
     line-height: 1.3em;
@@ -27,6 +37,15 @@ a:hover {
 
 .text-light {
     color: #c0c0c0!important;
+}
+
+/* Fix for IE 11 */
+.flex-grow-1 {
+    flex-shrink: 0;
+}
+
+.sticky-bottom {
+    flex-shrink: 0;
 }
 
 .widget {
