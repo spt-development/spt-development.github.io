@@ -21,7 +21,7 @@ at adding logging and auditing and testing <em>Spring Boot</em> <em>microservice
     <dd class="col-sm-9">Library for integrating spt-development-cid into a Spring JMS (listener) project. See also <a href="https://github.com/spt-development/spt-development-cid-jms-spring-boot">spt-development-cid-jms-spring-boot</a>, to integrate spt-development-cid-jms-spring into a Spring Boot project.</dd>
 
     <dt class="col-sm-3"><a href="https://github.com/spt-development/spt-development-logging-spring">spt-development-logging-spring</a></dt>
-    <dd class="col-sm-9">Library for adding logging to public @RestController, @service and @repository class methods and @JmsListener methods. See also <a href="https://github.com/spt-development/spt-development-logging-spring-boot">spt-development-logging-spring-boot</a>, to integrate spt-development-logging-spring into a Spring Boot project.</dd>
+    <dd class="col-sm-9">Library for adding logging to public @RestController, @Service and @Repository class methods and @JmsListener methods. See also <a href="https://github.com/spt-development/spt-development-logging-spring-boot">spt-development-logging-spring-boot</a>, to integrate spt-development-logging-spring into a Spring Boot project.</dd>
 
     <dt class="col-sm-3"><a href="https://github.com/spt-development/spt-development-audit-spring">spt-development-audit-spring</a></dt>
     <dd class="col-sm-9">Adds auditing to your project through the use of annotations typically added to Service methods. See also <a href="https://github.com/spt-development/spt-development-audit-spring-boot">spt-development-audit-spring-boot</a>, to integrate spt-development-audit-spring into a Spring Boot project.</dd>
