@@ -29,4 +29,4 @@ The technologies and platforms Simon can offer expertise in through SPT Developm
     <dd class="col-sm-9">Jenkins, Docker, Ansible, Git</dd>
 </dl>
 
-Simon is also founder of <a href="https://spt.contractors">SPT Contractors</a> a new innovative way to find outside IR35 contracts. It is 100% free to post engagements on SPT Contractors, no tie-ins, or strings attached, so no risk. Contractors who sign a contract found though the site are charged a fee equal to one day's day rate. SPT Contractors is built using many of the technologies listed above.
+Simon is also founder of <a href="https://spt.contractors">SPT Contractors</a> a new innovative way to find outside IR35 contracts. It is 100% free to post engagements on SPT Contractors, no tie-ins, or strings attached, so no risk. Contractors who sign a contract found though the site are charged a fee equal to one day's day rate. SPT Contractors is built using many of the technologies listed above and utilises some of the [open source projects](/opensource) Simon has released.

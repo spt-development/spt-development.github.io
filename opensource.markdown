@@ -29,3 +29,5 @@ at adding logging and auditing and testing <em>Spring Boot</em> <em>microservice
     <dt class="col-sm-3"><a href="https://github.com/spt-development/spt-development-test">spt-development-test</a></dt>
     <dd class="col-sm-9">A collection of utility classes useful for unit and integration testing.</dd>
 </dl>
+
+If you require development or consultancy related to these projects or any of the related technologies, then [get in touch](/#contact).
