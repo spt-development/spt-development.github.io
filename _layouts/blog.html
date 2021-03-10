@@ -27,7 +27,7 @@ layout: page
         </a>
       </h3>
       {%- if site.show_excerpts -%}
-        {{ post.excerpt }}
+        {{ post.excerpt | remove: '<p class="lead">' | remove: '</p>' }}
       {%- endif -%}
     </li>
     {%- endfor -%}
