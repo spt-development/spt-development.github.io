@@ -8,14 +8,7 @@
     {%- include header.html -%}
 
     <section class="container flex-grow-1" aria-label="Content">
-	<header class="row">
-	    <div class="col">
-		<h1>{{ page.title | escape }}</h1>
-	    </div>
-	</header>
-        <div class="row">
-            {{ content }}
-        </div>
+        {{ content }}
     </section>
 
     {%- include footer.html -%}

@@ -2,29 +2,36 @@
 layout: default
 ---
 
-<article class="col-md-8">
-    {{ content }}
-</article>
-<section class="col-md-4">
-    <div id="contact" class="border rounded widget">
-        <h3>Contact</h3>
-        <div class="vcard">
-            <span class="n">
-		<span class="given-name">Simon</span> <span class="family-name">Taylor</span>
-	    </span>
-	    <span class="fn org">SPT Development Ltd</span>
-	    <div class="adr">
-	        <span class="street-address">57, Desjardins Way</span>
-	        <span class="locality">Pershore</span>
-	        <span class="region">Worcestershire</span>
-	        <span class="postal-code">WR10 3EA</span>
-    	    </div>
-	    <span class="tel">+44 (0) 7825 332003</span>
-	    <a class="email" href="mailto: simon.taylor@spt-development.com" title="Contact us">simon.taylor@spt-development.com</a>
-	</div>
+<header class="row">
+    <div class="col">
+	<h1>{{ page.title | escape }}</h1>
     </div>
-    <div>
-        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/sptdevltd" data-widget-id="347057144945856512">Tweets by @sptdevltd</a>
-        <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
-    </div>
-</section>
+</header>
+<div class="row">
+    <article class="col-md-8">
+        {{ content }}
+    </article>
+    <section class="col-md-4">
+        <div id="contact" class="border rounded widget">
+            <h3>Contact</h3>
+            <div class="vcard">
+                <span class="n">
+		    <span class="given-name">Simon</span> <span class="family-name">Taylor</span>
+	        </span>
+	        <span class="fn org">SPT Development Ltd</span>
+	        <div class="adr">
+	            <span class="street-address">57, Desjardins Way</span>
+	            <span class="locality">Pershore</span>
+	            <span class="region">Worcestershire</span>
+	            <span class="postal-code">WR10 3EA</span>
+    	        </div>
+	        <span class="tel">+44 (0) 7825 332003</span>
+	        <a class="email" href="mailto: simon.taylor@spt-development.com" title="Contact us">simon.taylor@spt-development.com</a>
+	    </div>
+        </div>
+        <div>
+            <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/sptdevltd" data-widget-id="347057144945856512">Tweets by @sptdevltd</a>
+            <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+        </div>
+    </section>
+</div>

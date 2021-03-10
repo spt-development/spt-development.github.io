@@ -21,7 +21,7 @@
 title: SPT Development
 email: simon.taylor@spt-development.com
 description: >- # this means to ignore newlines until "baseurl:"
-  SPT Development Ltd is the company Simon Taylor provides Java development, 
+  SPT Development Ltd is the company Simon Taylor provides full-stack development, 
   architecture and software consultancy services through. Simon is available 
   for contracting and bespoke software development across a wide range of 
   technologies and platforms.
@@ -29,12 +29,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.spt-development.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sptdevltd
 github_username:  SimonTaylor
+show_excerpts: true
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-gist
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -62,6 +64,9 @@ navigation:
   - text: Open Source
     title: Open Source Projects
     url: /opensource
+  - text: Blog
+    title: Blog
+    url: /blog
   - text: Profile
     title: Simon Taylor's Profile
     url: /Profile.pdf

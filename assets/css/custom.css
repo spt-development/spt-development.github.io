@@ -103,3 +103,7 @@ a:hover {
     margin-top: 0.5em;
     font-size: 10pt;
 }
+
+code.highlighter-rouge {
+    color: #757575!important;
+}
