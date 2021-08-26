@@ -17,7 +17,7 @@ The technologies and platforms Simon can offer expertise in through SPT Developm
 
 <dl class="row">
     <dt class="col-sm-3">Spring</dt>
-    <dd class="col-sm-9">Spring Boot, Spring MVC, Spring Security, Spring Batch, Spring Integrationi, Spring Cloud Config</dd>
+    <dd class="col-sm-9">Spring Boot, Spring MVC, Spring Security, Spring Batch, Spring Integration, Spring Cloud Config</dd>
                 
     <dt class="col-sm-3">JEE</dt>
     <dd class="col-sm-9">MDB, JMS, EJB, JPA/Hibernate, JAXB, JAXRS, Wildfly, JBoss</dd>
