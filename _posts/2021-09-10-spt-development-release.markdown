@@ -28,4 +28,4 @@ The following projects have all been updated to v2.0.0:
 I have also created a new [demo project](https://github.com/spt-development/spt-development-demo) that demonstrates how to easily integrate all of the 
 spt-development-* projects into a Spring Boot application and the features they provide. I hope to blog in more detail on this in the coming weeks and months.
 
-I hope this helps the community, and if there are ny questions or comments, don't hesitate to get in touch.
+I hope this helps the community, and if there are any questions or comments, don't hesitate to get in touch.
