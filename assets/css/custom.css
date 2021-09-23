@@ -28,6 +28,7 @@ a {
 }
 
 a:hover {
+    color: rgb(239 217 168 / 50%);
     text-decoration: underline;
 }
 
