@@ -30,6 +30,8 @@ url: "https://www.spt-development.com" # the base hostname & protocol for your s
 twitter_username: sptdevltd
 github_username:  SimonTaylor
 show_excerpts: true
+disqus:
+  shortname: https-spt-development-com
 
 # Build settings
 theme: minima
