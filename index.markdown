@@ -29,7 +29,7 @@ The technologies and platforms Simon can offer expertise in through SPT Developm
     <dd class="col-sm-9">Postgres, MySQL, SQLServer, Elasticsearch, MongoDB</dd>
 
     <dt class="col-sm-3">AWS</dt>
-    <dd class="col-sm-9">EC2, ECS, Cognito, Lambda, S3, SQS, Kinesis, Dynamodb, RDS, Route 52, Cloud Front</dd>
+    <dd class="col-sm-9">EC2, ECS, Cognito, Lambda, S3, SQS, Kinesis, Dynamodb, RDS, Route 52, Cloud Front, Cloud Development Kit (CDK)</dd>
 
     <dt class="col-sm-3">Devops</dt>
     <dd class="col-sm-9">Jenkins, Docker, Ansible, Git</dd>
@@ -38,7 +38,7 @@ The technologies and platforms Simon can offer expertise in through SPT Developm
     <dd class="col-sm-9">JUnit, Mockito, Cucumber, Selenium, Automation, TDD, BDD</dd>
 
     <dt class="col-sm-3">Other</dt>
-    <dd class="col-sm-9">Microservices, REST, Enterprise Integration Patterns (EIP), Mule ESB, Camel</dd>
+    <dd class="col-sm-9">Microservices, REST, Enterprise Integration Patterns (EIP), Mule ESB, Camel, ActiveMQ, RabbitMQ</dd>
 </dl>
 
 Simon is also founder of <a href="https://spt.contractors">SPT Contractors</a> a new innovative way to find outside IR35 contracts. It is 100% free to post engagements on SPT Contractors, no tie-ins, or strings attached, so no risk. Contractors who sign a contract found though the site are charged a fee equal to one day's day rate. SPT Contractors is built using many of the technologies listed above and utilises some of the [open source projects](/opensource) Simon has released.
