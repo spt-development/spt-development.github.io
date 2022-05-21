@@ -5,7 +5,7 @@ date:   2021-09-10 19:55:12 +0000
 author: Simon Taylor
 categories: microservices correlation spring opensource
 ---
-I'm pleased to announced that I have now released new and up to date versions of all of the spt-development-* projects releated to correlation IDs, logging and 
+I'm pleased to announced that I have now released new and up to date versions of all of the spt-development-* projects related to correlation IDs, logging and 
 auditing. The main change to all of the projects is to support JDK8+ and Spring Boot 2.5.4. I will endeavor to release new versions of the libraries, soon after 
 each new release of Spring Boot, moving forward. As always, the source is available on [GitHub](https://github.com/spt-development) where there are more detailed
 release notes and the artifacts are also available in [Maven Central](https://mvnrepository.com/artifact/com.spt-development) for easy inclusion in your own 
