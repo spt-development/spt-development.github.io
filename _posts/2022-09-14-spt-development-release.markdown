@@ -20,7 +20,8 @@ The following projects have all been updated to v2.0.7:
 * [spt-development-cid-web-spring-boot](https://github.com/spt-development/spt-development-cid-web-spring-boot)
 * [spt-development-logging-spring-boot](https://github.com/spt-development/spt-development-logging-spring-boot)
 
-Additionally, the following libraries have also been updated with to align with the latest version of Spring Boot and/or update other dependencies:
+Additionally, the following libraries have also been updated to align with the version 2.7.3 of Spring Boot and/or to the latest versions of other 
+dependencies:
 
 * [spt-development-audit-spring](https://github.com/spt-development/spt-development-audit-spring) - v2.0.7
 * [spt-development-test](https://github.com/spt-development/spt-development-test) - v2.0.7
