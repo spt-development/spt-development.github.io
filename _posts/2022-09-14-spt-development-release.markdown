@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "spt-development-*-spring-boot* 2.0.7"
+title:  "spt-development-*-spring-boot 2.0.7"
 date:   2022-09-14 19:06:00 +0000
 author: Simon Taylor
 categories: microservices correlation spring opensource
