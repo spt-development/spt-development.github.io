@@ -108,3 +108,11 @@ a:hover {
 code.highlighter-rouge {
     color: #757575!important;
 }
+
+hr {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #c0c0c0!important;
+}

@@ -31,4 +31,6 @@ dependencies:
 I have also upgraded the [demo project](https://github.com/spt-development/spt-development-demo) to Spring Boot 2.7.4 and v2.0.8 of all the libraries above.
 Additionally, as Spring Boot 2.7.4 adds support for JDK 19, the demo project has also been built and tested against JDK 19 (in adition to 8, 11, and 17).
 
+---
+
 I hope this helps the community, and if there are any questions or comments, please don't hesitate to get in touch.

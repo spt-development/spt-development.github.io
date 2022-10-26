@@ -26,4 +26,6 @@ The following projects have all been updated to v2.0.1:
 I have also upgraded the [demo project](https://github.com/spt-development/spt-development-demo) to Spring Boot 2.5.5 and v2.0.1 of all the libraries above.
 Additionally, as Spring Boot 2.5.5 adds support for JDK 17, the demo project has also been upgraded to JDK 17.
 
+---
+
 I hope this helps the community, and if there are any questions or comments, don't hesitate to get in touch.

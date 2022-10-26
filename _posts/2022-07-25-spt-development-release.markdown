@@ -26,4 +26,6 @@ which has remained at v2.0.4:
 
 I have also upgraded the [demo project](https://github.com/spt-development/spt-development-demo) to Spring Boot 2.7.2 and v2.0.6 of all the libraries above.
 
+---
+
 I hope this helps the community, and if there are any questions or comments, don't hesitate to get in touch.

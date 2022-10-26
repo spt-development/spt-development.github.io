@@ -32,4 +32,6 @@ Additionally, I have also improved the quality checks in place for the demo proj
 test coverage, added additional tests to ensure that the coverage requirement is met and migrated from [hamcrest](https://hamcrest.org/) to 
 [assertj](https://joel-costigliola.github.io/assertj/).
 
+---
+
 I hope this helps the community, and if there are any questions or comments, please don't hesitate to get in touch.

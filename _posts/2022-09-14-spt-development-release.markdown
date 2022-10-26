@@ -28,4 +28,6 @@ dependencies:
 
 I have also upgraded the [demo project](https://github.com/spt-development/spt-development-demo) to Spring Boot 2.7.3 and v2.0.7 of all the libraries above.
 
+---
+
 I hope this helps the community, and if there are any questions or comments, please don't hesitate to get in touch.
