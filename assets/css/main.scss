@@ -1,0 +1,267 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+/* Import font */
+@font-face {
+    font-family: "Museo Sans 500";
+    src: url('../fonts/MuseoSans_500.eot');
+    src: url('../fonts/MuseoSans_500.woff') format('woff'), url('../fonts/MuseoSans_500.ttf') format('truetype');
+}
+
+/* Custom colour variables */
+$light-silver: #c0c0c0;
+
+$light-gold: #efd9a8;
+$dark-gold: #876c31;
+
+/* Bootstrap variable overrides */
+$font-family-sans-serif: "Museo Sans 500", "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+
+$dark: #000;
+$light: #fff;
+
+$primary: #086dc3;
+
+$line-height-base: 1.3;
+
+$dt-font-weight: normal;
+
+$link-color: #086dc3;
+$link-decoration: none;
+$link-hover-decoration: underline;
+
+$carousel-indicator-width: 10px;
+$carousel-indicator-height: 10px;
+
+$navbar-dark-color: $light-gold;
+$navbar-dark-hover-color: $light-gold;
+$navbar-dark-active-color: $light-silver;
+
+$dropdown-bg: $dark;
+$dropdown-link-color: $light-gold;
+$dropdown-link-active-bg: $dropdown-bg;
+$dropdown-link-hover-color: $light-gold;
+$dropdown-link-hover-bg: #495057;
+$dropdown-link-active-color: $light-silver;
+
+/*!
+ * Bootstrap v5.0.2 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+// scss-docs-start import-stack
+// Configuration
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "utilities";
+
+// Layout & components
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "containers";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "accordion";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "alert";
+@import "progress";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "offcanvas";
+
+// Helpers
+@import "helpers";
+
+// Utilities
+@import "utilities/api";
+// scss-docs-end import-stack
+
+/* Custom variables */
+$light-text-on-dark-bg-color: $light-silver;
+
+/* Custom placeholders */
+%widget-button {
+    background-color: $dark-gold;
+    color: $white!important;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    padding-bottom: 0.3rem;
+
+    &:hover {
+        background-color: #ad9257;
+        text-decoration: none !important;
+    }
+}
+
+%link-on-dark-bg {
+  color: $light-gold;
+  text-decoration: none;
+
+  &:hover {
+      color: $light-gold;
+      text-decoration: underline;
+  }
+}
+
+/* Custom styling */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 63px;
+}
+
+/* Fix for IE 11 */
+.flex-grow-1 {
+    flex-shrink: 0;
+}
+
+hr {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: $light-silver !important;
+}
+
+code.highlighter-rouge {
+    color: $gray-600!important;
+}
+
+/* Specific Bootstrap style overrides */
+.navbar-dark {
+    .navbar-nav {
+        .nav-link {
+            &:not(.active) {
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.nav-link.active {
+    cursor: default;
+}
+
+.bg-dark.text-light, .bg-dark .text-light {
+    color: $light-text-on-dark-bg-color !important;
+}
+
+section.bg-dark a {
+    @extend %link-on-dark-bg
+}
+
+.carousel .carousel-indicators button {
+    border-radius: 100%;
+}
+
+.carousel .carousel-item {
+    min-height: 15em;
+}
+
+/* Info cards */
+.card.info, .card.info .list-group .list-group-item {
+    background-color: $gray-100;
+}
+
+/* Splash image inset */
+.splash-img::before, .splash-img::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.splash-img::before {
+    width: 10%;
+    height: 20%;
+    z-index: 15;
+    background-color: $light;
+}
+
+.splash-img::after {
+    width: 16%;
+    height: 32%;
+    z-index: 10;
+    background: -webkit-gradient(linear,left bottom,left top,from($dark-gold),to($light-gold));
+    background: linear-gradient(360deg,$dark-gold 0%,$light-gold 100%);
+}
+
+/* Blog posts */
+.post-list li {
+  list-style: none;
+}
+
+.post-link.comments {
+  color: $black;
+}
+
+/* Footer */
+.footer-copyright p {
+    font-size: 10pt;
+}
+
+/* Book now / Calendly button */
+a.calendly-widget-link {
+    @extend %widget-button
+}
+
+/* Cookie compliance */
+a.cc-btn.cc-dismiss {
+    @extend %widget-button
+}
+
+.cc-window.cc-floating {
+  border-color: $light;
+  border-style: groove;
+  border-width: 1px;
+}
+
+a.cc-link {
+  @extend %link-on-dark-bg
+}
+
+/* Responsive SVG */
+.svg-container { 
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 66%; 
+  vertical-align: middle; 
+  overflow: hidden; 
+}
+
+.svg-content { 
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

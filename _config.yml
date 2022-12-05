@@ -18,20 +18,36 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+google_analytics: G-TSTV2NSH7Q
+
+locale: en_UK
+
 title: SPT Development
-email: simon.taylor@spt-development.com
+email: info@spt-development.com
 description: >- # this means to ignore newlines until "baseurl:"
-  SPT Development Ltd is the company Simon Taylor provides full-stack development, 
-  architecture and software consultancy services through. Simon is available 
-  for contracting and bespoke software development across a wide range of 
-  technologies and platforms.
+  We are software consultants with many years experience in the IT industry, designing, 
+  building and successfully delivering bespoke software solutions. We are passionate about 
+  technology, code and delivering high quality software to meet our customer's needs.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.spt-development.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: sptdevltd
-github_username:  SimonTaylor
-show_excerpts: true
+
+twitter:
+  username: sptdevltd
+  card: summary_large_image
+github:
+  username: SimonTaylor
+social:
+  name: SPT Development
+  links:
+    - https://twitter.com/sptdevltd
+    - https://www.linkedin.com/company/spt-development-ltd/
+    - https://github.com/spt-development
+
 disqus:
   shortname: https-spt-development-com
+
+show_excerpts: true
 
 # Build settings
 theme: minima
@@ -40,6 +56,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-redirect-from
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -63,21 +80,49 @@ plugins:
 whitelist: 
   - jekyll-redirect-from
 
+show_excerpts: true
+paginate_path: "/blog/page-:num/"
+paginate: 10
+
+collections:
+  categories:
+    output: false
+
 navigation:
-  - text: Home
-    url: /
-  - text: Open Source
-    title: Open Source Projects
-    url: /opensource
+  - text: Consultancy
+    title: Software Consultancy
+    url: /software-consultancy
+  - text: Industries
+    items:
+      - text: Government
+        url: /government
+      - text: Retail
+        url: /software-consultancy#industries
+      - text: Finance
+        url: /software-consultancy#industries
+      - text: Telecomms
+        url: /software-consultancy#industries
+      - text: Utilities
+        url: /software-consultancy#industries
+      - text: Recruitment
+        url: /software-consultancy#industries
+  - text: Services
+    items:
+      - text: Quality Software
+        url: /quality-software
+      - text: Integration
+        url: /integration
   - text: Blog
-    title: Blog
     url: /blog
-  - text: Profile
-    title: Simon Taylor's Profile
-    url: /Profile.pdf
 
 defaults:
   - scope:
       page: ""
     values:
-      image: /assets/Logo.png
+      image:
+        path: /assets/images/splash-logo.jpg
+        type: image/jpeg
+        height: 2078
+        width: 3882
+      seo:
+        type: Organization

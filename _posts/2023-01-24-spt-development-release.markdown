@@ -32,4 +32,4 @@ We have also upgraded the [demo project](https://github.com/spt-development/spt-
 
 ---
 
-We hope this helps the community, and if there are any questions or comments, please don't hesitate to get in touch.
+We hope this helps the community, and if there are any questions or comments, please don't hesitate to [get in touch]({{ "/contact-us" | relative_url }}){:title="Contact Us"}.

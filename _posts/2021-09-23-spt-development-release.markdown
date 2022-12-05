@@ -28,4 +28,4 @@ Additionally, as Spring Boot 2.5.5 adds support for JDK 17, the demo project has
 
 ---
 
-We hope this helps the community, and if there are any questions or comments, don't hesitate to get in touch.
+We hope this helps the community, and if there are any questions or comments, don't hesitate to [get in touch]({{ "/contact-us" | relative_url }}){:title="Contact Us"}.

@@ -30,4 +30,4 @@ spt-development-* projects into a Spring Boot application and the features they 
 
 ---
 
-We hope this helps the community, and if there are any questions or comments, don't hesitate to get in touch.
+We hope this helps the community, and if there are any questions or comments, don't hesitate to [get in touch]({{ "/contact-us" | relative_url }}){:title="Contact Us"}.
