@@ -37,6 +37,10 @@ in the network window and select "Open in new tab". The audio file will be saved
 
 ![download audio](/assets/images/2022-09-24-dance-dad-burning-cds/download-audio-file.jpeg){:class="img-fluid"}
 
+[EDIT: 01/04/2023 - Facebook now appears to download all of the mp4 files when the messages page is opened rather than when it is first played. 
+I found no way of tying an mp4 file to a particular message, so I had to right click on each one in turn in the dev tools window, to find the 
+one I wanted.]
+
 ## Converting mp4 to mp3
 
 If you received an mp3 file, this step can be skipped. If you received an mp4 for example, then you will need to convert it
