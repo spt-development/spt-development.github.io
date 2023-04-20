@@ -7,22 +7,22 @@ categories: microservices correlation spring opensource travis
 ---
 TLDR; The versions 2.0.1 to 2.0.11 of spt-development-cid are identical to 2.0.0 and therefore there is no pressing need to upgrade.
 
-In an effort to stream line the release process of the spt-development-cid (and ultimately the other related projects) I managed to
-burn through 11 patch release numbers, without actually making any code changes. I have therefore removed all but the 
+In an effort to stream line the release process of the spt-development-cid (and ultimately the other related projects) we managed to
+burn through 11 patch release numbers, without actually making any code changes. We have therefore removed all but the 
 [2.0.11 release](https://github.com/spt-development/spt-development-cid/releases/tag/2.0.11) from Github and would also remove them
-from [Maven Central](https://mvnrepository.com/artifact/com.spt-development/spt-development-cid) if I were able to.
+from [Maven Central](https://mvnrepository.com/artifact/com.spt-development/spt-development-cid) if we were able to.
 
 Just to reiterate, there is nothing wrong with versions 2.0.1 to 2.0.11 other than they contain no changes when compared to version 2.0.0.
 {: class="lead"}
 
 ## Automated Release
 
-Below is a summary of some of the problems I ran into whilst trying to automate the release process with
-[Travis CI](https://www.travis-ci.com) and the solutions I found.
+Below is a summary of some of the problems we ran into whilst trying to automate the release process with
+[Travis CI](https://www.travis-ci.com) and the solutions we found.
 
 ### `maven-release-plugin` requires full clone of repository
 
-`mvn release:prepare release:perform -B` will update the versions and kick off the Maven `deploy` phase - I already had
+`mvn release:prepare release:perform -B` will update the versions and kick off the Maven `deploy` phase - we already had
 the relevant plugins configured to deploy to sonatype with `mvn deploy -Prelease`. Out of the box, Travis performs
 a shallow clone of the current branch, it was therefore necessary to switch off the default checkout and issue the
 clone and checkout commands manually.
@@ -62,7 +62,7 @@ The Travis [Github releases provider](https://docs.travis-ci.com/user/deployment
 however it is tightly coupled to tagging a particular version of the code. In order to prevent an infinite loop of
 releases all of the `maven-release-plugin` checkins include the `[skip travis]` comment, which stops Travis from 
 running the build for those checkins - including the 'tag build'. To resolve this, rather than specifying on `tags: true`
-I have specified `branch: main` so the releases provider runs when there is a checkin on the main
+we have specified `branch: main` so the releases provider runs when there is a checkin on the main
 branch (after the `maven-release-plugin` has run and tagged the build). For this to work, the `TRAVIS_TAG` environment
 variable needs to be set.
 

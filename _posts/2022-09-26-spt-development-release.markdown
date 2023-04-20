@@ -5,7 +5,7 @@ date:   2022-09-26 16:06:00 +0000
 author: Simon Taylor
 categories: microservices correlation spring opensource
 ---
-I'm pleased to announced that I have now released new versions of the spt-development-*-spring-boot projects for integrating the spt-development
+I'm pleased to announced that we have now released new versions of the spt-development-*-spring-boot projects for integrating the spt-development
 libraries related to correlation IDs, logging and auditing, into Spring Boot applications. These new releases along with new releases of some of
 the projects they relate to, have been updated to align with the recently released 
 [Spring Boot 2.7.4](https://spring.io/blog/2022/09/22/spring-boot-2-7-4-available-now). As always, the source is available on 
@@ -28,9 +28,9 @@ dependencies:
 * [spt-development-jms-spring](https://github.com/spt-development/spt-development-jms-spring) - v2.0.7
 * [spt-development-test](https://github.com/spt-development/spt-development-test) - v2.0.8
 
-I have also upgraded the [demo project](https://github.com/spt-development/spt-development-demo) to Spring Boot 2.7.4 and v2.0.8 of all the libraries above.
+We have also upgraded the [demo project](https://github.com/spt-development/spt-development-demo) to Spring Boot 2.7.4 and v2.0.8 of all the libraries above.
 Additionally, as Spring Boot 2.7.4 adds support for JDK 19, the demo project has also been built and tested against JDK 19 (in adition to 8, 11, and 17).
 
 ---
 
-I hope this helps the community, and if there are any questions or comments, please don't hesitate to get in touch.
+We hope this helps the community, and if there are any questions or comments, please don't hesitate to get in touch.

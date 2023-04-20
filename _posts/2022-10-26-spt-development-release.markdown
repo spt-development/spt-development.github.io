@@ -5,7 +5,7 @@ date:   2022-10-26 19:53:00 +0000
 author: Simon Taylor
 categories: microservices correlation spring opensource slf4j MDC
 ---
-I'm pleased to announced that I have now released new versions of the spt-development-*-spring-boot projects for integrating the spt-development
+I'm pleased to announced that we have now released new versions of the spt-development-*-spring-boot projects for integrating the spt-development
 libraries related to correlation IDs, logging and auditing, into Spring Boot applications. These new releases along with new releases of some of
 the projects they relate to, have been updated to integrate with the [slf4j MDC](https://www.slf4j.org/api/org/slf4j/MDC.html) context. Providing
 a simpler way of including the correlation ID in your logs. As always, the source is available on [GitHub](https://github.com/spt-development) and 
@@ -27,7 +27,7 @@ Additionally, the following libraries have also been updated:
 * [spt-development-cid-web](https://github.com/spt-development/spt-development-cid-web) - v2.0.5
 * [spt-development-logging-spring](https://github.com/spt-development/spt-development-logging-spring) - v2.0.8
 
-I have also upgraded the [demo project](https://github.com/spt-development/spt-development-demo) to v2.0.10 of all the libraries above.
+We have also upgraded the [demo project](https://github.com/spt-development/spt-development-demo) to v2.0.10 of all the libraries above.
 
 ### Mapped Diagnostic Context
 
@@ -71,4 +71,4 @@ simpler in the future.
 
 ---
 
-I hope this helps the community, and if there are any questions or comments, please don't hesitate to get in touch.
+We hope this helps the community, and if there are any questions or comments, please don't hesitate to get in touch.
