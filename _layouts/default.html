@@ -3,13 +3,17 @@
 
   {%- include head.html -%}
 
-  <body class="bg-dark text-light">
+  <body class="bg-light text-dark">
 
     {%- include header.html -%}
 
-    <section class="container flex-grow-1" aria-label="Content">
+    <section class="container-xl flex-grow-1 mt-3" aria-label="Content">
         {{ content }}
     </section>
+
+    {% if page.sub-section-include %}
+      {%- include {{ page.sub-section-include }} %}
+    {% endif %}
 
     {%- include footer.html -%}
 

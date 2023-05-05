@@ -1,9 +1,6 @@
 ---
-layout: page
+layout: default
 ---
-
-{{ content }}
-
 
 {% if site.paginate %}
   {% assign posts = paginator.posts %}
@@ -11,46 +8,101 @@ layout: page
   {% assign posts = site.posts %}
 {% endif %}
 
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
+
+{% if paginator.page == 1 %}
+  <section class="row">
+    <div class="col">
+      <div class="col-12 col-md-6 ms-md-2 mb-3 mb-md-1 float-md-end">
+        <div class="splash-img position-relative">
+          <img class="d-block w-100" src="{{ "/assets/images/splash-blog.jpg" | relative_url }}" alt="{{ page.title }}">
+        </div>
+      </div>
+      <h1 class="fs-3 mt-3">{{ page.title | escape }}</h1>
+      {%- if posts.size > 0 -%}
+        {% assign first_post = site.posts[0] %}
+        <h3 class="text-truncate">
+          <a class="post-link" href="{{ first_post.url | relative_url }}" title="{{first_post.title}}">
+            {{ first_post.title | escape }}
+          </a>
+        </h3>
+        <div class="mb-2 text-uppercase text-truncate">
+          {% if first_post.categories.size > 0 %}
+            <span class="d-none d-lg-inline post-meta mb-2">{{ first_post.categories[0] }} | </span>
+          {% endif %}
+          <span class="post-meta mb-2">{{ first_post.author }} | {{ first_post.date | date: date_format }}</span> | <a class="post-link comments" href="{{ first_post.url | relative_url }}#discuss_thread">Comments</a>
+        </div>
+        {%- if site.show_excerpts -%}
+          <p>{{ first_post.excerpt | markdownify | remove: '<p class="lead">' | remove: '</p>' }}</p>
+        {%- endif -%}
+        <a class="btn btn-primary" href="{{ first_post.url | relative_url }}" role="button">
+           Read More
+        </a>
+      {% endif %}
+    </div>
+  </section>
+{% else %}
+  <h1 class="fs-3 mt-3">{{ page.title | escape }}</h1>
+{% endif %}
 
 {%- if posts.size > 0 -%}
-  {%- if page.list_title -%}
-    <h2 class="post-list-heading">{{ page.list_title }}</h2>
-  {%- endif -%}
-  <ul class="post-list">
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    {%- for post in posts -%}
-    <li class="mb-3">
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h3>
-      <div class="mb-2">
-        <span class="post-meta mb-2">{{ post.author }} • {{ post.date | date: date_format }}</span>
-      </div>
-      {%- if site.show_excerpts -%}
-        <p>{{ post.excerpt | remove: '<p class="lead">' | remove: '</p>' }}</p>
+  <div class="row{% if paginator.page == 1 %} mt-5{% endif %}">
+    <div class="col">
+      {%- if page.list_title -%}
+        <h2 class="post-list-heading">{{ page.list_title }}</h2>
       {%- endif -%}
-    </li>
-    {%- endfor -%}
-  </ul>
-
-  {% if site.paginate %}
-    <div class="pager">
-      <ul class="pagination">
-      {%- if paginator.previous_page %}
-        <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-      {%- else %}
-        <li><div class="pager-edge">•</div></li>
-      {%- endif %}
-        <li><div class="current-page">{{ paginator.page }}</div></li>
-      {%- if paginator.next_page %}
-        <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-      {%- else %}
-        <li><div class="pager-edge">•</div></li>
-      {%- endif %}
+      <ul class="post-list ps-0 w-100">
+        {%- for post in posts -%}
+          {% unless forloop.first and paginator.page == 1 %}
+            <li class="pb-3 mb-3{% unless forloop.last %} border-bottom{% endunless %}">
+              <h3 class="text-truncate">
+                <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">
+                  {{ post.title | escape }}
+                </a>
+              </h3>
+              <div class="mb-2 text-uppercase text-truncate">
+                {% if first_post.categories.size > 0 %}
+                  <span class="d-none d-md-inline post-meta mb-2">{{ first_post.categories[0] }} | </span>
+                {% endif %}
+                <span class="post-meta mb-2">{{ post.author }} | {{ post.date | date: date_format }}</span> | <a class="post-link comments" href="{{ post.url | relative_url }}#discuss_thread">Comments</a>
+              </div>
+              {%- if site.show_excerpts -%}
+                <p>{{ post.excerpt | remove: '<p class="lead">' | remove: '</p>' }}</p>
+              {%- endif -%}
+              <a class="btn btn-primary" href="{{ post.url | relative_url }}" role="button">
+                  Read More
+              </a>
+            </li>
+          {% endunless %}
+        {%- endfor -%}
       </ul>
+    </div>
   </div>
+  
+  <!-- pagination -->
+  {% if site.paginate %}
+    <div class="row">
+      {% if paginator.total_pages > 1 %}
+      <div class="col">
+        <nav aria-label="Page navigation">
+          <ul class="pagination justify-content-center">
+            <li class="page-item{% unless paginator.previous_page %} disabled{% endunless %}">
+              <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+            </li>
+            {% for page in (1..paginator.total_pages) %}
+              <li class="page-item{% if page == paginator.page %} active{% endif %}">
+                <a class="page-link" href="{% if page == 1 %}{{ "/blog" | relative_url }}{% else %}{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}{% endif %}">{{ page }}</a>
+              </li>
+            {% endfor %}
+            <li class="page-item{% unless paginator.next_page %} disabled{% endunless %}">
+              <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      {% endif %}
+    </div>
   {%- endif %}
 
 {%- endif -%}
