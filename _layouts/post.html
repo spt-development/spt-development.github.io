@@ -11,7 +11,7 @@ layout: default
       {% if page.categories.size > 0 %}
         <span class="d-none d-md-inline post-meta mb-2">{{ page.categories[0] }} | </span>
       {% endif %}
-      <span class="post-meta mb-2">{{ page.author }} | {{ page.date | date: date_format }}</span> | <a class="post-link comments" href="{{ page.url | relative_url }}#discuss_thread">Comments</a>
+      <span class="post-meta mb-2">{{ page.author }} | {{ page.date | date: date_format }}</span> | <a class="post-link comments" href="{{ page.url | absolute_url }}#discuss_thread">Comments</a>
     </div>
   </header>
 

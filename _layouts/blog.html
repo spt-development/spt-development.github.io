@@ -31,7 +31,7 @@ layout: default
           {% if first_post.categories.size > 0 %}
             <span class="d-none d-lg-inline post-meta mb-2">{{ first_post.categories[0] }} | </span>
           {% endif %}
-          <span class="post-meta mb-2">{{ first_post.author }} | {{ first_post.date | date: date_format }}</span> | <a class="post-link comments" href="{{ first_post.url | relative_url }}#discuss_thread">Comments</a>
+          <span class="post-meta mb-2">{{ first_post.author }} | {{ first_post.date | date: date_format }}</span> | <a class="post-link comments" href="{{ first_post.url | absolute_url }}#discuss_thread">Comments</a>
         </div>
         {%- if site.show_excerpts -%}
           <p>{{ first_post.excerpt | markdownify | remove: '<p class="lead">' | remove: '</p>' }}</p>
@@ -65,7 +65,7 @@ layout: default
                 {% if first_post.categories.size > 0 %}
                   <span class="d-none d-md-inline post-meta mb-2">{{ first_post.categories[0] }} | </span>
                 {% endif %}
-                <span class="post-meta mb-2">{{ post.author }} | {{ post.date | date: date_format }}</span> | <a class="post-link comments" href="{{ post.url | relative_url }}#discuss_thread">Comments</a>
+                <span class="post-meta mb-2">{{ post.author }} | {{ post.date | date: date_format }}</span> | <a class="post-link comments" href="{{ post.url | absolute_url }}#discuss_thread">Comments</a>
               </div>
               {%- if site.show_excerpts -%}
                 <p>{{ post.excerpt | remove: '<p class="lead">' | remove: '</p>' }}</p>
