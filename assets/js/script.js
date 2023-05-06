@@ -38,3 +38,8 @@ window.onload = function () {
     document.querySelector(window.location.hash).scrollIntoView();
   }
 };
+
+// Calendly integration
+com.spt_development.initCalendlyPopup = function () {
+  Calendly.initPopupWidget({url: 'https://calendly.com/spt-development/introduction?hide_gdpr_banner=1'});
+}
