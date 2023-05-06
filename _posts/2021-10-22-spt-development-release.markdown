@@ -4,6 +4,11 @@ title:  "spt-development-* 2.0.2"
 date:   2021-10-22 17:29:59 +0000
 author: Simon Taylor
 categories: microservices correlation spring opensource
+image:
+  path: /assets/images/cards/card-blog.jpg
+  type: image/jpeg
+  height: 1200
+  width: 630
 ---
 I'm pleased to announced that we have now released new versions of the spt-development-* projects related to correlation IDs, logging and auditing, 
 which aligns them with the recently released [Spring Boot 2.5.6](https://spring.io/blog/2021/10/21/spring-boot-2-5-6-is-now-available). As always, 

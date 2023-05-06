@@ -6,6 +6,11 @@ author: Simon Taylor
 categories: microservices correlation
 redirect_from:
   - /microservices/correlation/2021/03/10/spt-devlopment-cid.html
+image:
+  path: /assets/images/cards/card-blog.jpg
+  type: image/jpeg
+  height: 1200
+  width: 630
 ---
 This is the first in a series of blog posts that go into detail about a number of [open source](/opensource) projects we have released, starting with [spt-development-cid](https://github.com/spt-development/spt-development-cid). `spt-development-cid` is a very simple library that utilises `ThreadLocal` for tracking a correlation ID similar to that described by Sam Newman, in Chapter 8 of his excellent book [Building Microservices](https://www.amazon.co.uk/Building-Microservices-Sam-Newman/dp/1491950358){:target="_blank"}. If you have ever tried to support a system consisting of multiple services that *doesn't* use correlation IDs, then you will understand their importance! Sam's book describes the concept better than I would, so I urge you to read that if you require a deeper understanding.
 {: class="lead"}

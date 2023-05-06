@@ -5,10 +5,10 @@ permalink: /integration
 description: >- 
   Increasingly, organizations have a need to combine the data and functionality from more and more sources that are rarely designed to interoperate with each other. Our consultants have real-world experience of successfully delivering integration solutions that operate securely, at scale and maintain accuracy and integrity of data.
 image:
-  path: /assets/images/splash-integration.jpg
+  path: /assets/images/cards/card-integration.jpg
   type: image/jpeg
-  height: 2078
-  width: 3882
+  height: 1200
+  width: 630
 ---
 
 <section class="row">

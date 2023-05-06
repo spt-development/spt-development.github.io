@@ -3,10 +3,10 @@ layout: default
 title: Contact Us
 permalink: /contact-us
 image:
-  path: /assets/images/splash-contact.jpg
+  path: /assets/images/cards/card-contact.jpg
   type: image/jpeg
-  height: 2078
-  width: 3882
+  height: 1200
+  width: 630
 ---
 
 <section class="row">

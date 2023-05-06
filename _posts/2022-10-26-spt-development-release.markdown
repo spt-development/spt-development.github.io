@@ -4,6 +4,11 @@ title:  "spt-development-*-spring-boot 2.0.10"
 date:   2022-10-26 19:53:00 +0000
 author: Simon Taylor
 categories: microservices correlation spring opensource slf4j MDC
+image:
+  path: /assets/images/cards/card-blog.jpg
+  type: image/jpeg
+  height: 1200
+  width: 630
 ---
 I'm pleased to announced that we have now released new versions of the spt-development-*-spring-boot projects for integrating the spt-development
 libraries related to correlation IDs, logging and auditing, into Spring Boot applications. These new releases along with new releases of some of

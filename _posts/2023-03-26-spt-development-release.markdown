@@ -4,6 +4,11 @@ title:  "spt-development-*-spring-boot 3.0.5"
 date:   2023-03-26 18:21:00 +0000
 author: Simon Taylor
 categories: microservices correlation spring opensource
+image:
+  path: /assets/images/cards/card-blog.jpg
+  type: image/jpeg
+  height: 1200
+  width: 630
 excerpt: |
   I'm pleased to announced that we have now released new versions of the spt-development-*-spring-boot projects for integrating the spt-development
   libraries related to correlation IDs, logging and auditing, into Spring Boot applications. <span class="d-inline d-md-none d-xl-inline">These new 

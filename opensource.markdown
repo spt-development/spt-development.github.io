@@ -6,10 +6,10 @@ description: >-
   Our consultants make extensive use of open source projects such as Spring in many of the software development projects we undertake.
   In an effort to give back to the open source community, we have released a number of open source projects ourselves.
 image:
-  path: /assets/images/splash-opensource.jpg
+  path: /assets/images/cards/card-opensource.jpg
   type: image/jpeg
-  height: 2078
-  width: 3882
+  height: 1200
+  width: 630
 ---
 
 <section class="row">

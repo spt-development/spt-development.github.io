@@ -7,10 +7,10 @@ description: >-
   We take a cloud first approach to all the projects we are involved in. Whilst there are often good reasons not to deploy your software to the
   cloud, in our opinion there is seldom a good reason not to consider it for new software projects.
 image:
-  path: /assets/images/splash-cloud.jpg
+  path: /assets/images/cards/card-cloud.jpg
   type: image/jpeg
-  height: 2078
-  width: 3882
+  height: 1200
+  width: 630
 ---
 
 <section class="row">

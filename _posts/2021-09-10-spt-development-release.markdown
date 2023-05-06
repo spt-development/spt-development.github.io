@@ -4,6 +4,11 @@ title:  "spt-development-* 2.0.0"
 date:   2021-09-10 19:55:12 +0000
 author: Simon Taylor
 categories: microservices correlation spring opensource
+image:
+  path: /assets/images/cards/card-blog.jpg
+  type: image/jpeg
+  height: 1200
+  width: 630
 ---
 I'm pleased to announced that we have now released new and up to date versions of all of the spt-development-* projects related to correlation IDs, logging and 
 auditing. The main change to all of the projects is to support JDK8+ and Spring Boot 2.5.4. We will endeavor to release new versions of the libraries, soon after 

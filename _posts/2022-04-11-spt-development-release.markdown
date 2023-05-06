@@ -4,6 +4,11 @@ title:  "spt-development-cid 2.0.11 - 11th time lucky"
 date:   2022-04-11 20:00:59 +0000
 author: Simon Taylor
 categories: microservices correlation spring opensource travis
+image:
+  path: /assets/images/cards/card-blog.jpg
+  type: image/jpeg
+  height: 1200
+  width: 630
 ---
 TLDR; The versions 2.0.1 to 2.0.11 of spt-development-cid are identical to 2.0.0 and therefore there is no pressing need to upgrade.
 

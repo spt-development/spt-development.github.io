@@ -6,10 +6,10 @@ description: >-
   We specialise in working with government departments and agencies at all levels. We take great pleasure in helping government departments
   increase efficiency and provide real benefit to the lives of the country's citizens through the innovative, secure and cost-effective use of IT.
 image:
-  path: /assets/images/splash-government.jpg
+  path: /assets/images/cards/card-government.jpg
   type: image/jpeg
-  height: 2078
-  width: 3882
+  height: 1200
+  width: 630
 ---
 
 <section class="row">

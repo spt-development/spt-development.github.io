@@ -4,6 +4,11 @@ title:  "Auditing"
 date:   2021-10-03 16:56:31 +0000
 author: Simon Taylor
 categories: auditing spring microservices correlation
+image:
+  path: /assets/images/cards/card-blog.jpg
+  type: image/jpeg
+  height: 1200
+  width: 630
 ---
 In this post I introduce the features of [spt-development-audit-spring](https://github.com/spt-development/spt-development-audit-spring) and describe how to integrate it into a Spring Boot application with the [spt-development-audit-spring-boot](https://github.com/spt-development/spt-development-audit-spring-boot) starter, demonstrated with the [demo project](https://github.com/spt-development/spt-development-demo) created as part of the [v2.0.0 release]({% post_url 2021-09-10-spt-development-release %}) of the spt-development-* projects. `spt-development-audit-spring` has a dependency on [spt-development-cid](https://github.com/spt-development/spt-development-cid) which is integrated into the demo project with [spt-development-cid-web](https://github.com/spt-development/spt-development-cid-web) as described in an [earlier post]({% post_url 2021-05-30-spt-development-cid-part-2 %}). The demo project also integrates [spt-development-logging-spring](https://github.com/spt-development/spt-development-logging-spring) and [spt-development-cid-jms-spring](https://github.com/spt-development/spt-development-cid-jms-spring) and has tests that use [spt-development-test](https://github.com/spt-development/spt-development-test).
 {: class="lead"}

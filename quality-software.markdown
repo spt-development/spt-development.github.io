@@ -7,10 +7,10 @@ description: >-
   quality gates before being delivered to our customers. We believe this is the only way to develop software and
   to ensure successful outcomes for our customers. We will not compromise on this, ever!
 image:
-  path: /assets/images/splash-quality.jpg
+  path: /assets/images/cards/card-quality.jpg
   type: image/jpeg
-  height: 2078
-  width: 3882
+  height: 1200
+  width: 630
 ---
 
 <section class="row">

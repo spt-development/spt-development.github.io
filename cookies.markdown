@@ -6,10 +6,10 @@ description: >-
   We use cookies to track usage on our site. We do not track any of your activity as it relates to your individual movements throughout our site,
   only as an aggregate of data in conjunction with users of our site as a whole. Your movement is not tracked once you leave our site.
 image:
-  path: /assets/images/splash-cookies.jpg
+  path: /assets/images/cards/card-cookies.jpg
   type: image/jpeg
-  height: 2078
-  width: 3882
+  height: 1200
+  width: 630
 ---
 
 <section class="row">

@@ -5,6 +5,11 @@ date:   2022-09-24 13:30:00 +0000
 author: Simon Taylor
 categories: facebook ffmpeg cd mp4 mp3 macos
 published: false
+image:
+  path: /assets/images/cards/card-blog.jpg
+  type: image/jpeg
+  height: 1200
+  width: 630
 ---
 
 This is a record of the steps taken to burn an audio file received via [Facebook Messenger](https://www.messenger.com/) to a CD, in my case for

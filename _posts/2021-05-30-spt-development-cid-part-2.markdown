@@ -4,6 +4,11 @@ title:  "Correlation ID (Part 2)"
 date:   2021-05-30 18:26:19 +0000
 author: Simon Taylor
 categories: microservices correlation spring
+image:
+  path: /assets/images/cards/card-blog.jpg
+  type: image/jpeg
+  height: 1200
+  width: 630
 ---
 This post continues on from the [first blog in the series]({% post_url 2021-03-10-spt-development-cid %}) and describes how to integrate [spt-development-cid](https://github.com/spt-development/spt-development-cid) into a Spring Boot web project with [spt-development-cid-web-spring-boot](https://github.com/spt-development/spt-development-cid-web-spring-boot) and how this can be used in conjunction with [spt-development-logging-spring](https://github.com/spt-development/spt-development-logging-spring) to quickly add useful logging to all layers of your web application.
 {: class="lead"}
