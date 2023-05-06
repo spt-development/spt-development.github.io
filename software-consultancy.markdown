@@ -6,10 +6,10 @@ description: >-
   Our consultants can provide expertise across a wide range of technologies and platforms. We can deliver bespoke software
   projects on your behalf or augment your existing <em>development</em> teams as well as conduct <em>architecture</em> reviews or deliver training courses.
 image:
-  path: /assets/images/splash-consultancy.jpg
+  path: /assets/images/cards/card-consultancy.jpg
   type: image/jpeg
-  height: 2078
-  width: 3882
+  height: 1200
+  width: 630
 ---
 
 <section class="row">
