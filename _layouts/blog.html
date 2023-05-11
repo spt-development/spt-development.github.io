@@ -68,7 +68,7 @@ layout: default
                 <span class="post-meta mb-2">{{ post.author }} | {{ post.date | date: date_format }}</span> | <a class="post-link comments" href="{{ post.url | absolute_url }}#discuss_thread" data-disqus-identifier="{{ post.url | absolute_url }}">Comments</a>
               </div>
               {%- if site.show_excerpts -%}
-                <p>{{ post.excerpt | remove: '<p class="lead">' | remove: '</p>' }}</p>
+                <p>{{ post.excerpt | markdownify | remove: '<p class="lead">' | remove: '</p>' }}</p>
               {%- endif -%}
               <a class="btn btn-primary" href="{{ post.url | relative_url }}" role="button">
                   Read More
