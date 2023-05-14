@@ -35,6 +35,7 @@ Additionally, the following libraries have also been updated:
 We have also upgraded the [demo project](https://github.com/spt-development/spt-development-demo) to v2.0.10 of all the libraries above.
 
 ### Mapped Diagnostic Context
+{: class="fs-4" }
 
 Simply adding v2.0.10 spt-development-cid-web-spring-boot-starter or spt-development-cid-jms-spring-boot-starter (depending on your requirements)
 as a dependency to your project, will be enough to have the correlation ID added to the [Mapped Diagnostic Context](https://logback.qos.ch/manual/mdc.html) 
@@ -58,6 +59,7 @@ shows the changes made to the demo project to remove the explicit inclusion of c
 spt-development-logging-spring-boot, the number of changes will be reduced.
 
 #### Disable MDC
+{: class="fs-5" }
 
 Although it is the default functionality and recomended approach, if you don't want to use MDC, maybe because you already have `CorrelationId.get()` calls
 in log statements scattered throughout your code, then it it is possible to disable this new functionality by setting the `spt.cid.mdc.disabled` property to `true`.
@@ -66,13 +68,18 @@ is purely for demonstration and testing purposes however and not expected to be 
 no reason why it couldn't be.
 
 ### Why the U-turn
+{: class="fs-4" }
 
 It was a concious decision [early on]({% post_url 2021-05-30-spt-development-cid-part-2 %}) *not* to use the MDC. However, having had feedback from various
 users, it became eveident that this was a feature that was lacking in the library and having to explicitly add `CorrelationId.get()` explicitly to log
 statements was putting some people off from using the library.
 
-Integration with [Spring Cloud Sleuth](https://spring.io/projects/spring-cloud-sleuth) is on the road map and the use of MDC is expected to make that integration 
+Integration with ~~[Spring Cloud Sleuth](https://spring.io/projects/spring-cloud-sleuth)~~ 
+[Micrometer](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#actuator.micrometer-tracing)
+is on the road map and the use of MDC is expected to make that integration 
 simpler in the future.
+
+[EDIT] There is now a [post]({% post_url 2023-05-14-micrometer-trace-integration %}) describing how to integrate the logging and auditing libraries with Micrometer.
 
 ---
 
