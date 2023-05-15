@@ -58,7 +58,7 @@ image:
     and simply need to fill specific roles within those existing teams, without the overhead of taking on full-time employees. We can provide consultants with expertise 
     across all aspects of software engineering including project management, business analysis, development, testing and dev-ops.</p>
     <p>The architecture reviews that we carry out are intended to help you and your engineers validate your ideas and draw upon the experience of our talented
-    consultants. It is a fantastic way of working with us for the first time and in the past has resulted in customers instructing us to take over from incumbant suppliers.</p>
+    consultants. It is a fantastic way of working with us for the first time and in the past has resulted in customers instructing us to take over from incumbent suppliers.</p>
     <p>If you need to up-skill members of your existing development teams in a particular area, require them to have a deeper understanding of a particular technology or simply
     want to provide your employees with with an opportunity to enhance their skill-set, we can provide bespoke training sessions across a wide range of technologies and platforms.</p>
     <p>To find out more about working with us and to discuss your needs, <a href="{{ "/contact-us" | relative_url }}">get in touch</a>.</p>
