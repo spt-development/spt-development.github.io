@@ -30,7 +30,7 @@ the `spring-boot-starter-actuator` dependency, so the only other dependency requ
 
 {% gist 5797d3d366bc8ddb882a89d4cc69bf73 %}
 
-And to see the trace ID (and span ID) included in the logs, the loggging pattern needed updating.
+To see the trace ID (and span ID) included in the logs, the loggging pattern needed updating.
 
 {% gist b5c925abaa17b230d8c27878c53e14f8 %}
 
