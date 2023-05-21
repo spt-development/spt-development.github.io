@@ -10,7 +10,7 @@ image:
   height: 1200
   width: 630
 ---
-I'm pleased to announced that we have now released new and up to date versions of all of the spt-development-* projects related to correlation IDs, logging and 
+I'm pleased to announce that we have now released new and up to date versions of all of the spt-development-* projects related to correlation IDs, logging and 
 auditing. The main change to all of the projects is to support JDK8+ and Spring Boot 2.5.4. We will endeavor to release new versions of the libraries, soon after 
 each new release of Spring Boot, moving forward. As always, the source is available on [GitHub](https://github.com/spt-development) where there are more detailed
 release notes and the artifacts are also available in [Maven Central](https://mvnrepository.com/artifact/com.spt-development) for easy inclusion in your own 

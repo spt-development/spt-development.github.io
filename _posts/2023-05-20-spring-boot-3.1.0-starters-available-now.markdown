@@ -11,7 +11,7 @@ image:
   height: 1200
   width: 630
 excerpt: |
-  I'm pleased to announced that we have now released new versions of the SPT Development 
+  I'm pleased to announce that we have now released new versions of the SPT Development 
   [Spring Boot](https://spring.io/projects/spring-boot){: target="_blank"} starter projects, for integrating the SPT Development libraries related 
   to correlation IDs, logging and auditing, into Spring Boot applications. <span class="d-inline d-md-none d-xl-inline">These new releases along 
   with new releases of some of the projects they relate to, have been updated to align with the recently released 

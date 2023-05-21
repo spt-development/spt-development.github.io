@@ -10,7 +10,7 @@ image:
   height: 1200
   width: 630
 ---
-I'm pleased to announced that we have now released new versions of the spt-development-*-spring-boot projects for integrating the spt-development
+I'm pleased to announce that we have now released new versions of the spt-development-*-spring-boot projects for integrating the spt-development
 libraries related to correlation IDs, logging and auditing, into Spring Boot applications. These new releases along with new releases of some of
 the projects they relate to, have been updated to align with the recently released 
 [Spring Boot 3.0.3](https://spring.io/blog/2023/02/23/spring-boot-3-0-3-available-now). As always, the source is available on 
