@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "spt-development-*-spring-boot 2.0.10"
+title:  "Spring Boot 2.0.10 starters available now"
 date:   2022-10-26 19:53:00 +0000
 author: Simon Taylor
 categories: microservices correlation spring opensource slf4j MDC

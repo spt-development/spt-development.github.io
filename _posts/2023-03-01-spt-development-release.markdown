@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "spt-development-*-spring-boot 3.0.3"
+title:  "Spring Boot 3.0.3 starters available now"
 date:   2023-03-01 20:25:00 +0000
 author: Simon Taylor
 categories: microservices correlation spring opensource
