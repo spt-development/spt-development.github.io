@@ -5,7 +5,7 @@ permalink: /quality-software
 description: >- 
   We insist on delivering software of the highest quality, that is beautifully crafted, thoroughly tested and been through a rigorous set of
   quality gates before being delivered to our customers. We believe this is the only way to develop software and
-  to ensure successful outcomes for our customers. We will not compromise on this, ever!
+  to ensure successful outcomes for our customers.
 image:
   path: /assets/images/cards/card-quality.jpg
   type: image/jpeg

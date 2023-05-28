@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: "SPT Development: A leading software consultancy"
+title: "Software Consultants"
 ---
 
 <h1 class="d-none">{{ page.title | escape }}</h1>
@@ -20,7 +20,7 @@ title: "SPT Development: A leading software consultancy"
           <section class="pt-2 pt-md-0 mb-lg-5">
             <h2 class="fs-3">Software Consultancy</h2>
             {%- include /leads/software-consultancy.html %}
-            <a href="{{ "/software-consultancy" | relative_url }}" class="fs-4" title="Discover more">
+            <a href="{{ "/software-consultancy" | relative_url }}" class="fs-4" title="Discover more about software consultancy">
                 Discover more<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                 </svg>
@@ -29,7 +29,7 @@ title: "SPT Development: A leading software consultancy"
         </div>
         <div class="col-12 order-1 col-md-6 order-md-2">
           <div class="splash-img position-relative">
-            <a href="{{ "/software-consultancy" | relative_url }}" class="fs-4" title="Discover more">
+            <a href="{{ "/software-consultancy" | relative_url }}" class="fs-4" title="Discover more about software consultancy">
               <img class="d-block w-100" src="{{ "/assets/images/splash-consultancy.jpg" | relative_url }}" alt="Development & Architecture">
             </a>
           </div>
@@ -42,7 +42,7 @@ title: "SPT Development: A leading software consultancy"
           <section class="pt-2 pt-md-0 mb-lg-5">
             <h2 class="fs-3">Government</h2>
             {%- include /leads/government.html %}
-            <a href="{{ "/government" | relative_url }}" class="fs-4" title="Discover more">
+            <a href="{{ "/government" | relative_url }}" class="fs-4" title="Discover more about government">
                 Discover more<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                 </svg>
@@ -51,7 +51,7 @@ title: "SPT Development: A leading software consultancy"
         </div>
         <div class="col-12 order-1 col-md-6 order-md-2">
           <div class="splash-img position-relative">
-            <a href="{{ "/government" | relative_url }}" class="fs-4" title="Discover more">
+            <a href="{{ "/government" | relative_url }}" class="fs-4" title="Discover more about government">
               <img class="d-block w-100" src="{{ "/assets/images/splash-government.jpg" | relative_url }}" alt="Government">
             </a>
           </div>
@@ -64,7 +64,7 @@ title: "SPT Development: A leading software consultancy"
           <section class="pt-2 pt-md-0 mb-lg-5">
             <h2 class="fs-3">Quality Software</h2>
             {%- include /leads/quality-software.html %}
-            <a href="{{ "/quality-software" | relative_url }}" class="fs-4" title="Discover more">
+            <a href="{{ "/quality-software" | relative_url }}" class="fs-4" title="Discover more about quality software">
                 Discover more<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                 </svg>
@@ -73,7 +73,7 @@ title: "SPT Development: A leading software consultancy"
         </div>
         <div class="col-12 order-1 col-md-6 order-md-2">
           <div class="splash-img position-relative">
-            <a href="{{ "/quality-software" | relative_url }}" class="fs-4" title="Discover more">
+            <a href="{{ "/quality-software" | relative_url }}" class="fs-4" title="Discover more about quality software">
               <img class="d-block w-100" src="{{ "/assets/images/splash-quality.jpg" | relative_url }}" alt="Consultancy">
             </a>
           </div>
@@ -123,7 +123,7 @@ title: "SPT Development: A leading software consultancy"
         </li>
       </ul>
       <div class="card-footer">
-        <a href="{{ "/software-consultancy" | relative_url }}" title="More">
+        <a href="{{ "/software-consultancy" | relative_url }}" title="More on software consultancy">
             More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
             </svg>
@@ -192,7 +192,7 @@ title: "SPT Development: A leading software consultancy"
         </li>
       </ul>
       <div class="card-footer">
-        <a href="{{ "/government" | relative_url }}" title="More">
+        <a href="{{ "/government" | relative_url }}" title="More on government">
             More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
             </svg>
@@ -240,7 +240,7 @@ title: "SPT Development: A leading software consultancy"
         </li>
       </ul>
       <div class="card-footer">
-        <a href="{{ "/quality-software" | relative_url }}" title="More">
+        <a href="{{ "/quality-software" | relative_url }}" title="More on quality software">
             More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
             </svg>
@@ -288,7 +288,7 @@ title: "SPT Development: A leading software consultancy"
         </li>
       </ul>
       <div class="card-footer">
-        <a href="{{ "/integration" | relative_url }}" title="More">
+        <a href="{{ "/integration" | relative_url }}" title="More on integration">
             More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
             </svg>
@@ -301,8 +301,8 @@ title: "SPT Development: A leading software consultancy"
 <div class="row mb-3">
   <div class="col-12 col-md-6">
     <div class="splash-img position-relative">
-      <a href="{{ "/integration" | relative_url }}" class="fs-4" title="Discover more">
-        <img class="d-block w-100" src="{{ "/assets/images/splash-integration.jpg" | relative_url }}" alt="Development & Architecture">
+      <a href="{{ "/integration" | relative_url }}" class="fs-4" title="Discover more about integration">
+        <img class="d-block w-100" src="{{ "/assets/images/splash-integration.jpg" | relative_url }}" alt="Integration">
       </a>
     </div>
   </div>
@@ -310,7 +310,7 @@ title: "SPT Development: A leading software consultancy"
     <section class="pt-2 pt-md-0 mb-lg-5">
       <h2 class="fs-3">Integration</h2>
       {%- include /leads/integration.html %}
-      <a href="{{ "/integration" | relative_url }}" class="fs-4" title="Discover more">
+      <a href="{{ "/integration" | relative_url }}" class="fs-4" title="Discover more about integration">
           Discover more<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
           </svg>
@@ -324,7 +324,7 @@ title: "SPT Development: A leading software consultancy"
     <section class="pt-2 pt-md-0 mb-lg-5">
       <h2 class="fs-3">Cloud First</h2>
       {%- include /leads/cloud-first.html %}
-      <!--<a href="{{ "/cloud-first" | relative_url }}" class="fs-4" title="Discover more">
+      <!--<a href="{{ "/cloud-first" | relative_url }}" class="fs-4" title="Discover more about the cloud">
           Discover more<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
           </svg>
@@ -333,7 +333,7 @@ title: "SPT Development: A leading software consultancy"
   </div>
   <div class="col-12 order-1 col-md-6 order-md-2">
     <div class="splash-img position-relative">
-      <!--<a href="{{ "/cloud-first" | relative_url }}" class="fs-4" title="Discover more">-->
+      <!--<a href="{{ "/cloud-first" | relative_url }}" class="fs-4" title="Discover more about the cloud">-->
         <img class="d-block w-100" src="{{ "/assets/images/splash-cloud.jpg" | relative_url }}" alt="Development & Architecture">
       <!--</a>-->
     </div>

@@ -94,7 +94,7 @@ image:
   </div>
   <div class="col-12 order-1 col-md-6 order-md-2">
     <div class="splash-img position-relative">
-      <!--<a href="{{ "/cloud-first" | relative_url }}" class="fs-4" title="Discover more">-->
+      <!--<a href="{{ "/cloud-first" | relative_url }}" class="fs-4" title="Discover more about the cloud:">-->
         <img class="d-block w-100" src="{{ "/assets/images/splash-cloud.jpg" | relative_url }}" alt="Development & Architecture">
       <!--</a>-->
     </div>
