@@ -56,7 +56,7 @@ image:
     <p>Now more than ever, the public sector must balance the stability of service delivery with the speed to react to citizens' changing needs. Often this leads to changing
     requirements for software development projects which can in turn result in costs spiralling out of control when developed using traditional methodologies. This is one of the
     reasons we carry out bespoke software development using agile methodologies; whilst this can often be a new way of working for some customers, in our experience it is the most 
-    cost-effective way of working and is most likely to result in postive outcomes, compared to alternative ways of delivering bespoke software.</p>
+    cost-effective way of working and is most likely to result in positive outcomes, compared to alternative ways of delivering bespoke software.</p>
     <p>Whether it is a digital transformation project that has the potential to positively impact every single UK citizen, programs of work to help deliver efficient, cost-effective
     public services or even unprecedented challenges of our time such as climate change, our consultants will deliver high quality software to help local and national goverment 
     meet these challenges on behalf of the public. We can provide expert consultants to fill specific roles within existing software development teams or provide entire teams 

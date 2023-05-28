@@ -86,7 +86,7 @@ image:
     <section class="pt-2 pt-md-0 mb-lg-5">
       <h2 class="fs-3">Ensure Quality</h2>
       <p>Whether exposing or consuming data, it is imperative that organizations ensure the quality of integrations with their mission-critical systems. Failing to 
-      ensure integrations are secure and protect the privacy and integrity of data, can at best be embarrasing and at worst result in loss of income or litigation.</p>
+      ensure integrations are secure and protect the privacy and integrity of data, can at best be embarrassing and at worst result in loss of income or litigation.</p>
     </section>
   </div>
   <div class="col-12 order-1 col-md-6 order-md-2">

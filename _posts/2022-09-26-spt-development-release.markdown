@@ -30,7 +30,7 @@ dependencies:
 
 * [spt-development-audit-spring](https://github.com/spt-development/spt-development-audit-spring) - v2.0.8
 * [spt-development-logging-spring](https://github.com/spt-development/spt-development-logging-spring) - v2.0.7
-* [spt-development-jms-spring](https://github.com/spt-development/spt-development-jms-spring) - v2.0.7
+* [spt-development-cid-jms-spring](https://github.com/spt-development/spt-development-cid-jms-spring) - v2.0.7
 * [spt-development-test](https://github.com/spt-development/spt-development-test) - v2.0.8
 
 We have also upgraded the [demo project](https://github.com/spt-development/spt-development-demo) to Spring Boot 2.7.4 and v2.0.8 of all the libraries above.

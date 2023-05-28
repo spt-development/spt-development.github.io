@@ -61,7 +61,7 @@ spt-development-logging-spring-boot, the number of changes will be reduced.
 #### Disable MDC
 {: class="fs-5" }
 
-Although it is the default functionality and recomended approach, if you don't want to use MDC, maybe because you already have `CorrelationId.get()` calls
+Although it is the default functionality and recommended approach, if you don't want to use MDC, maybe because you already have `CorrelationId.get()` calls
 in log statements scattered throughout your code, then it it is possible to disable this new functionality by setting the `spt.cid.mdc.disabled` property to `true`.
 The demo project build has been extended to run with a new `mdc-disabled` profile to prove that the libraries function correctly when this property is set. This
 is purely for demonstration and testing purposes however and not expected to be used to switch this functionality on and off in production, although there is 
@@ -70,7 +70,7 @@ no reason why it couldn't be.
 ### Why the U-turn
 {: class="fs-4" }
 
-It was a concious decision [early on]({% post_url 2021-05-30-spt-development-cid-part-2 %}) *not* to use the MDC. However, having had feedback from various
+It was a conscious decision [early on]({% post_url 2021-05-30-spt-development-cid-part-2 %}) *not* to use the MDC. However, having had feedback from various
 users, it became eveident that this was a feature that was lacking in the library and having to explicitly add `CorrelationId.get()` explicitly to log
 statements was putting some people off from using the library.
 
