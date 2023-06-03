@@ -37,7 +37,7 @@ radar_visualization({
   date: "2023.05",
   quadrants: [
     { name: "Languages & Frameworks" },
-    { name: "Infrastructure & Devops" },
+    { name: "Infrastructure & DevOps" },
     { name: "Datastores & Data Management" },
     { name: "Tools & Techniques" },
   ],

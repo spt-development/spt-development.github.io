@@ -65,7 +65,7 @@ image:
     all of the code we produce adheres to a standard set of style rules which helps increase maintainability and is particularly important if customers will ultimately
     become responsible for supporting and/or maintaining the codebase in the future. All of these quality gates are built into the continuous integration pipelines that 
     build the software we develop, this ensures that only versions of code that have passed all of the quality gates, are eligible for release.</p>
-    <p>Creating releases and deploying new versions of applications is often prone to error, so we use our devops experience to go one step further than continuous integration
+    <p>Creating releases and deploying new versions of applications is often prone to error, so we use our DevOps experience to go one step further than continuous integration
     and implement continuous delivery pipelines, automating the process of creating releases of an application. Where practical, and on a project by project basis, we will automate the deployment 
     of new releases, and when deploying to the cloud we can automate the provisioning of cloud infrastructure.</p>
     <p>If you want high quality bespoke software, then <a href="{{ "/contact-us" | relative_url }}">get in touch</a>.</p>
