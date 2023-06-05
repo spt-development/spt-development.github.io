@@ -130,3 +130,5 @@ defaults:
         width: 630
       seo:
         type: Organization
+
+include: [".well-known"]
