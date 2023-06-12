@@ -2,6 +2,9 @@
 layout: default
 title: Contact Us
 permalink: /contact-us
+description: >-
+  SPT Development Ltd is a company registered in England and Wales. Company registration number: 07721208. 
+  Registered Office: 111-113 High Street, Evesham, Worcestershire, United Kingdom, WR11 4XP.
 image:
   path: /assets/images/cards/card-contact.jpg
   type: image/jpeg
