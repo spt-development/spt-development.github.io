@@ -7,9 +7,8 @@ description: >-
 ---
 
 <!-- Adapted from https://gdpr.eu/privacy-notice/ -->
-<h1 class="fs-3">Privacy</h1>
-
-This privacy policy will explain how SPT Development use the personal data we collect from you when you use our website.
+<h1 class="fs-3">{{ page.title }}</h1>
+{{ page.description }}
 
 Topics:
 
