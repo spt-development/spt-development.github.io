@@ -2,7 +2,6 @@
 layout: default
 title: Cloud First
 permalink: /cloud-first
-published: false
 description: >- 
   We take a cloud first approach to all the projects we are involved in. Whilst there are often good reasons not to deploy your software to the
   cloud, in our opinion there is seldom a good reason not to consider it for new software projects.
@@ -22,28 +21,14 @@ image:
     </div>
     <h1 class="fs-3 mt-3">{{ page.title | escape }}</h1>
     {%- include /leads/cloud-first.html %}
-    <h2 mt-5>Cloud First</h2>
-    <p>We take a cloud first approach to all the projects we are involved in. Whilst there is often good reasons not to deploy your software to the
-    cloud, in our opinion there is seldom a good reason <em>not</em> to consider it for new software projects. We have built up
-    a wealth of cloud development experience and have a proven track record of utilizing cloud services to build secure, highly scalable 
-    solutions, whilst minimizing costs for our customers.</p>
-    <hr />
-  </div>
-</section>
-
-  <div class="col-12 col-md-6 col-lg-3 d-flex">
-    <div class="card info mb-4 w-100">
-      <div class="card-header">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud" viewBox="0 0 16 16">
-          <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"/>
-        </svg>
-        Cloud
-      </div>
-      <div class="card-body flex-fill">
-        <p class="card-text">Our consultants are experts in making the best use of the cloud.</p>
-      </div>
-      <ul class="list-group list-group-flush border-top-0">
-        <li class="list-group-item border-bottom-0 text-truncate">Utlizing AWS, we will:</li>
+    <h3 class="fs-4 mt-5">Benefits of Cloud Computing</h3>
+    <p>Cloud computing refers to the delivery of on-demand computing resources via a network (usually the Internet) and gives users the ability to 
+    spin up new instances of hardware, storage, databases, networks etc, or tear them down in seconds. This allows our software consultants to
+    develop software at a much faster pace due to the ability to quickly prototype, test and deploy new versions of software. Tools such as 
+    <a href="https://www.terraform.io/" target="_blank">Terraform</a> allow our consultants to automate the provisioning of infrastructure which 
+    helps further minimize the time to market</p>
+    <div class="card info col-12 col-md-5 col-lg-4 float-md-start me-md-2 mb-3 mb-md-0">
+      <ul class="list-group list-group-flush border-top-0 mt-2">
         <li class="list-group-item border-bottom-0 text-truncate" title="Minimize Time To Market">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00b300" class="bi bi-check-lg" viewBox="0 0 16 16">
             <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
@@ -69,12 +54,56 @@ image:
           Improve Security
         </li>
       </ul>
-      <div class="card-footer">
-        <a href="{{ "/cloud-first" | relative_url }}" title="More on cloud first">
-            More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-            </svg>
-        </a>
-      </div>
+    </div>
+    <p>Unlike on-premise or traditional data centres, you only pay for the cloud resources you actually use rather than what you think you might use in the future. This allows you to reduce 
+    costs as well as the impact your business has on the environment, without constraining the potential for growth. Our consultants have the expertise to design cloud solutions that not only
+    keep your costs down but can automatically scale as your business or user base grows.</p>
+    <p>Cloud resources come with a breadth of security features, automatic maintenance and centralized management providing  improved security out of the box.
+    With cloud resources, patches can be applied in seconds, data can be easily encrypted at rest and networks are locked down by default. Additionally, the major cloud providers all hire top security 
+    experts and employ best in class solutions that provide extremely robust protection.</p>
+    <p>With the cloud, disaster recovery and data backup no longer needs to be an expensive after-thought. Building a disaster recovery site and testing a business continuity plan 
+    can be an extremely complex and expensive task with fixed assets. When built in the cloud alongside automated provisioning of infrastructure and automatic backups, production sites
+    can be replicated in minutes. For the most critical systems, our consultants can implement multi-cloud disaster recovery solutions, making use of multiple vendors to provide even more certainty 
+    around business continuity.</p>
+    <p>To discus hosting your new or existing applications in the cloud, <a href="{{ "/contact-us" | relative_url }}">get in touch</a>.</p>
+    <hr />
+  </div>
+</section>
+
+<div class="row mb-md-3">
+  <div class="col-12 col-md-6">
+    <div class="position-relative">
+      <img class="d-block w-100" src="{{ "/assets/images/splash-multi-cloud.jpg" | relative_url }}" alt="Multiple cloud providers">
     </div>
   </div>
+  <div class="d-flex align-items-center col-12 col-md-6">
+    <section class="pt-2 pt-md-0 mb-lg-5">
+      <h2 class="fs-3">All Major Cloud Providers</h2>
+      <p>Our consultants have experience working with all the major cloud providers:</p>
+      <ul>
+        <li>Amazon Web Services (AWS)</li>
+        <li>Microsoft Azure</li>
+        <li>Google Cloud Platform (GCP)</li>
+        <li>Oracle Cloud</li>
+      </ul>
+      <p>There are many factors that can influence which is the most suitable platform; rest assured our consultants will pick the platform that suits our customer's needs the best.</p>
+    </section>
+  </div>
+</div>
+
+<div id="industries" class="row mb-md-3">
+  <div class="d-flex align-items-center col-12 order-2 col-md-6 order-md-1">
+    <section class="pt-2 pt-md-0 mb-lg-5">
+      <h2 class="fs-3">Supporting A New Normal</h2>
+      <p>During and after the Covid-19 pandemic, there was a huge shift to home and hybrid working arrangements not least within the IT industry. Taking away the need to commute five days
+      a week has positive effects on employees' mental health <span class="fst-italic">and</span> the environment. Employers who don't offer these modern working arrangements will struggle to recruit and
+      retain the best staff. The cloud has been a massive enabler for working from home, providing collaboration tools that can be accessed anywhere there is an Internet connection
+      as well as allowing IT operations to be supported and maintained remotely.</p>
+    </section>
+  </div>
+  <div class="col-12 order-1 col-md-6 order-md-2">
+    <div class="splash-img position-relative">
+      <img class="d-block w-100" src="{{ "/assets/images/splash-wfh.jpg" | relative_url }}" alt="Working from home">
+    </div>
+  </div>
+</div>

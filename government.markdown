@@ -87,16 +87,14 @@ image:
   <div class="d-flex align-items-center col-12 order-2 col-md-6 order-md-1">
     <section class="pt-2 pt-md-0 mb-lg-5">
       <h2 class="fs-3">Cloud</h2>
-      <p>We take a cloud first approach to all the projects we are involved in and as such, our consultants have a wealth of experience of working with both public and private cloud. Cloud 
+      <p>We take a <a href="{{ "/cloud-first" | relative_url }}">cloud first</a> approach to all the projects we are involved in and as such, our consultants have a wealth of experience of working with both public and private cloud. Cloud 
       based solutions when designed properly not only result in significant cost savings when compared to on-premise solutions, but are also key to government departments achieving 
       sustainability objectives.</p>
     </section>
   </div>
   <div class="col-12 order-1 col-md-6 order-md-2">
     <div class="splash-img position-relative">
-      <!--<a href="{{ "/cloud-first" | relative_url }}" class="fs-4" title="Discover more about the cloud:">-->
-        <img class="d-block w-100" src="{{ "/assets/images/splash-cloud.jpg" | relative_url }}" alt="Development & Architecture">
-      <!--</a>-->
+      <img class="d-block w-100" src="{{ "/assets/images/splash-cloud.jpg" | relative_url }}" alt="Development & Architecture">
     </div>
   </div>
 </div>

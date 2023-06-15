@@ -116,6 +116,8 @@ navigation:
         url: /quality-software
       - text: Integration
         url: /integration
+      - text: Cloud First
+        url: /cloud-first
   - text: Blog
     url: /blog
 

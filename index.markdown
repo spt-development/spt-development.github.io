@@ -324,18 +324,18 @@ title: "Software Consultants"
     <section class="pt-2 pt-md-0 mb-lg-5">
       <h2 class="fs-3">Cloud First</h2>
       {%- include /leads/cloud-first.html %}
-      <!--<a href="{{ "/cloud-first" | relative_url }}" class="fs-4" title="Discover more about the cloud">
+      <a href="{{ "/cloud-first" | relative_url }}" class="fs-4" title="Discover more about the cloud">
           Discover more<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
           </svg>
-      </a>-->
+      </a>
     </section>
   </div>
   <div class="col-12 order-1 col-md-6 order-md-2">
     <div class="splash-img position-relative">
-      <!--<a href="{{ "/cloud-first" | relative_url }}" class="fs-4" title="Discover more about the cloud">-->
+      <a href="{{ "/cloud-first" | relative_url }}" class="fs-4" title="Discover more about the cloud">
         <img class="d-block w-100" src="{{ "/assets/images/splash-cloud.jpg" | relative_url }}" alt="Development & Architecture">
-      <!--</a>-->
+      </a>
     </div>
   </div>
 </div>
