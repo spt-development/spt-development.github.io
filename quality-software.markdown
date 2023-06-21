@@ -67,7 +67,7 @@ image:
     build the software we develop, this ensures that only versions of code that have passed all of the quality gates, are eligible for release.</p>
     <p>Creating releases and deploying new versions of applications is often prone to error, so we use our DevOps experience to go one step further than continuous integration
     and implement continuous delivery pipelines, automating the process of creating releases of an application. Where practical, and on a project by project basis, we will automate the deployment 
-    of new releases, and when deploying to the cloud we can automate the provisioning of cloud infrastructure.</p>
+    of new releases, and when deploying to the <a href="{{ "/cloud-first" | relative_url }}">cloud</a> we can automate the provisioning of cloud infrastructure.</p>
     <p>If you want high quality bespoke software, then <a href="{{ "/contact-us" | relative_url }}">get in touch</a>.</p>
     <p class="text-muted">* In reality, this isn’t always practical so we do allow exceptions on a carefully managed, case by case basis.</p>
     <hr />
