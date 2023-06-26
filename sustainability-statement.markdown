@@ -3,7 +3,7 @@ layout: default
 title: Sustainability Statement
 permalink: /sustainability-statement
 description: >-
-  We recognise that it would simply be immoral to conduct our business without considering the environmental impact our activities. Not 
+  We recognise that it would simply be immoral to conduct our business without considering the environmental impact of our activities. Not 
   only are we passionate about delivering quality software to our customers, we are passionate about doing so in a way that prioritises our
   social and corporate responsibilities with respect to sustainability.
 ---
