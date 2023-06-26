@@ -16,7 +16,7 @@ image:
   <div class="col">
     <div class="col-12 col-md-6 ms-md-2 mb-3 mb-md-1 float-md-end">
       <div class="splash-img position-relative">
-        <img class="d-block w-100" src="{{ "/assets/images/splash-cloud.jpg" | relative_url }}" alt="{{ page.title }}">
+        {% picture jpt-webp /assets/images/splash-cloud.jpg --img class="d-block w-100" loading="eager" --alt {{ page.title }} %}
       </div>
     </div>
     <h1 class="fs-3 mt-3">{{ page.title | escape }}</h1>
@@ -73,7 +73,7 @@ image:
 <div class="row mb-md-3">
   <div class="col-12 col-md-6">
     <div class="position-relative">
-      <img class="d-block w-100" src="{{ "/assets/images/splash-multi-cloud.jpg" | relative_url }}" alt="Multiple cloud providers">
+      {% picture jpt-webp /assets/images/splash-multi-cloud.jpg --img class="d-block w-100" loading="eager" --alt Multiple cloud providers %}
     </div>
   </div>
   <div class="d-flex align-items-center col-12 col-md-6">
@@ -103,7 +103,7 @@ image:
   </div>
   <div class="col-12 order-1 col-md-6 order-md-2">
     <div class="splash-img position-relative">
-      <img class="d-block w-100" src="{{ "/assets/images/splash-wfh.jpg" | relative_url }}" alt="Working from home">
+      {% picture jpt-webp /assets/images/splash-wfh.jpg --img class="d-block w-100" loading="lazy" --alt Working from home %}
     </div>
   </div>
 </div>

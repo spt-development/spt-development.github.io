@@ -16,7 +16,7 @@ image:
   <div class="col">
     <div class="col-12 col-md-6 ms-md-2 mb-3 mb-md-1 float-md-end">
       <div class="splash-img position-relative">
-        <img class="d-block w-100" src="{{ "/assets/images/splash-opensource.jpg" | relative_url }}" alt="{{ page.title }}">
+        {% picture jpt-webp /assets/images/splash-opensource.jpg --img class="d-block w-100" loading="eager" --alt {{ page.title }} %}
       </div>
     </div>
     <h1 class="fs-3 mt-3">{{ page.title | escape }}</h1>

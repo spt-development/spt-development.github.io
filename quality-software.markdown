@@ -17,7 +17,7 @@ image:
   <div class="col">
     <div class="col-12 col-md-6 ms-md-2 mb-3 mb-md-1 float-md-end">
       <div class="splash-img position-relative">
-        <img class="d-block w-100" src="{{ "/assets/images/splash-quality.jpg" | relative_url }}" alt="{{ page.title }}">
+        {% picture jpt-webp /assets/images/splash-quality.jpg --img class="d-block w-100" loading="eager" --alt {{ page.title }} %}
       </div>
     </div>
     <h1 class="fs-3 mt-3">{{ page.title | escape }}</h1>
@@ -77,7 +77,7 @@ image:
 <div class="row mb-md-3">
   <div class="col-12 col-md-6">
     <div class="splash-img position-relative">
-      <img class="d-block w-100" src="{{ "/assets/images/splash-agile.jpg" | relative_url }}" alt="Agile">
+      {% picture jpt-webp /assets/images/splash-agile.jpg --img class="d-block w-100" loading="eager" --alt Agile %}
     </div>
   </div>
   <div class="d-flex align-items-center col-12 col-md-6">
@@ -102,7 +102,7 @@ image:
   </div>
   <div class="col-12 order-1 col-md-6 order-md-2">
     <div class="splash-img position-relative">
-      <img class="d-block w-100" src="{{ "/assets/images/splash-opensource.jpg" | relative_url }}" alt="Open Source">
+      {% picture jpt-webp /assets/images/splash-opensource.jpg --img class="d-block w-100" loading="lazy" --alt Open Source %}
     </div>
   </div>
 </div>

@@ -32,11 +32,15 @@ window.cookieconsent.initialise({
   }
 });
 
-// Fix anchor tag links on iPhone
 window.onload = function () {
+  // Fix anchor tag links on iPhone
   if (window.location.hash) {
     document.querySelector(window.location.hash).scrollIntoView();
   }
+
+  // Force images in the carousel to load eagerly, once the page has loaded (this prevents a pause when they are displayed
+  // for the first time, but stops them blocking the initial rendering of the page).
+  document.querySelectorAll('.carousel-item img[loading="lazy"').forEach(function (i) { i.setAttribute('loading', 'eager'); }); 
 };
 
 // Calendly integration
