@@ -9,9 +9,9 @@ title: "Software Consultants"
 <h1 class="d-none">{{ page.title | escape }}</h1>
 <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="15000">
   <div class="carousel-indicators">
-    <button type="button" class="active bg-dark" data-bs-target="#carousel" data-bs-slide-to="0"></button>
-    <button type="button" class="bg-dark" data-bs-target="#carousel" data-bs-slide-to="1"></button>
-    <button type="button" class="bg-dark" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+    <button type="button" class="active bg-dark" data-bs-target="#carousel" data-bs-slide-to="0" alt="Carousel item 1"></button>
+    <button type="button" class="bg-dark" data-bs-target="#carousel" data-bs-slide-to="1" alt="Carousel item 2"></button>
+    <button type="button" class="bg-dark" data-bs-target="#carousel" data-bs-slide-to="2" alt="Carousel item 3"></button>
   </div>
   <div class="carousel-inner pb-5">
     <div class="carousel-item active">
@@ -30,7 +30,7 @@ title: "Software Consultants"
         <div class="col-12 order-1 col-md-6 order-md-2">
           <div class="splash-img position-relative">
             <a href="{{ "/software-consultancy" | relative_url }}" class="fs-4" title="Discover more about software consultancy">
-              <img class="d-block w-100" src="{{ "/assets/images/splash-consultancy.jpg" | relative_url }}" alt="Development & Architecture">
+              {% picture jpt-webp /assets/images/splash-consultancy.jpg --img class="d-block w-100" loading="eager" --alt Software Consultancy %}
             </a>
           </div>
         </div>
@@ -52,7 +52,7 @@ title: "Software Consultants"
         <div class="col-12 order-1 col-md-6 order-md-2">
           <div class="splash-img position-relative">
             <a href="{{ "/government" | relative_url }}" class="fs-4" title="Discover more about government">
-              <img class="d-block w-100" src="{{ "/assets/images/splash-government.jpg" | relative_url }}" alt="Government">
+              {% picture jpt-webp /assets/images/splash-government.jpg --img class="d-block w-100" loading="lazy" --alt Government %}
             </a>
           </div>
         </div>
@@ -74,7 +74,7 @@ title: "Software Consultants"
         <div class="col-12 order-1 col-md-6 order-md-2">
           <div class="splash-img position-relative">
             <a href="{{ "/quality-software" | relative_url }}" class="fs-4" title="Discover more about quality software">
-              <img class="d-block w-100" src="{{ "/assets/images/splash-quality.jpg" | relative_url }}" alt="Consultancy">
+              {% picture jpt-webp /assets/images/splash-quality.jpg --img class="d-block w-100" loading="lazy" --alt Consultancy %}
             </a>
           </div>
         </div>
@@ -302,7 +302,7 @@ title: "Software Consultants"
   <div class="col-12 col-md-6">
     <div class="splash-img position-relative">
       <a href="{{ "/integration" | relative_url }}" class="fs-4" title="Discover more about integration">
-        <img class="d-block w-100" src="{{ "/assets/images/splash-integration.jpg" | relative_url }}" alt="Integration">
+        {% picture jpt-webp /assets/images/splash-integration.jpg --img class="d-block w-100" loading="eager" --alt Integration %}
       </a>
     </div>
   </div>
@@ -334,7 +334,7 @@ title: "Software Consultants"
   <div class="col-12 order-1 col-md-6 order-md-2">
     <div class="splash-img position-relative">
       <a href="{{ "/cloud-first" | relative_url }}" class="fs-4" title="Discover more about the cloud">
-        <img class="d-block w-100" src="{{ "/assets/images/splash-cloud.jpg" | relative_url }}" alt="Development & Architecture">
+        {% picture jpt-webp /assets/images/splash-cloud.jpg --img class="d-block w-100" loading="lazy" --alt Cloud First %}
       </a>
     </div>
   </div>

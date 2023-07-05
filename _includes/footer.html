@@ -2,7 +2,7 @@
   <div class="container-xl mt-3">
     <div class="row">
       <div class="mb-3 mb-lg-0 col-12 col-md-6 col-lg-4 order-1">
-        <img src="{{ "/assets/Logo-no-padding.png" | relative_url }}" class="mb-1" alt="SPT Development Ltd logo" />
+        <img loading="lazy" src="{{ "/assets/Logo-no-padding.png" | relative_url }}" class="mb-1" alt="SPT Development Ltd logo" />
 	{%- include /leads/company-overview.html %}
         <!--<a href="{{ "/company-overview" | relative_url }}" title="Company Overview">
             Discover more<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
@@ -12,7 +12,7 @@
       </div>
       <div class="d-none d-lg-block col-lg-1 order-2"></div>
       <div class="col-6 col-lg-2 order-3 order-lg-3">
-        <h4 class="fs-5 mb-0">Company</h4>
+        <span class="fs-5 mb-0">Company</span>
         <ul class="list-group list-group-flush">
           <!--<li class="list-group-item px-0 pb-0 bg-dark">
             <a href="{{ "/company-overview" | relative_url }}" title="About us">
@@ -47,7 +47,7 @@
         </ul>
       </div>
       <div class="col-6 col-lg-2 order-4 order-lg-4">
-        <h4 class="fs-5 mb-0">Support</h4>
+        <span class="fs-5 mb-0">Support</span>
         <ul class="list-group list-group-flush">
           <li class="list-group-item px-0 pb-0 bg-dark">
             <a href="{{ "/contact-us" | relative_url }}" title="Contact Us">Contact Us</a>
@@ -64,12 +64,12 @@
         </ul>
       </div>
       <div class="mb-4 mb-lg-0 col-12 col-md-6 col-lg-3 order-2 order-lg-5">
-        <h4 class="fs-5 mb-0">Meet Us</h4>
+        <span class="fs-5 mb-0">Meet Us</span>
         <p class="mt-1">Book a meeting now, to find out more about us and for us to find out a little about you.</p>
         <!-- Calendly link widget begin -->
         <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
         <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async="true"></script>
-        <a href="" class="calendly-widget-link" onclick="com.spt_development.initCalendlyPopup();return false;">Book Now</a>
+        <a href="#" class="calendly-widget-link" onclick="com.spt_development.initCalendlyPopup();return false;">Book Now</a>
         <!-- Calendly link widget end -->
       </div>
     </div>
@@ -80,7 +80,11 @@
     <div class="row align-items-end">
       <div class="col-4 col-md-3 col-lg-2 offset-4 offset-md-0">
         <a href="https://www.smallbusinesscommissioner.gov.uk/ppc/" target="_blank">
-          <img class="w-100 my-3" src="{{ "/assets/images/PPC_logo_S.jpg" | relative_url }}" alt="Signatory to the PPC" />
+          {% if page.url == '/sitemap.xsl' %}
+            <img class="w-100 my-3" src="{{ "/assets/images/PPC_logo_S.jpg" | relative_url }}" alt="Signatory to the PPC" />
+          {% else %}
+            {% picture jpt-webp /assets/images/PPC_logo_S.jpg --img class="w-100 my-3" loading="lazy" --alt Signatory to the PPC %}
+          {% endif %}
         </a>
       </div>
       <div class="col-12 col-md-6 col-lg-8">
