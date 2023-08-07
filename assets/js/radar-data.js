@@ -34,7 +34,7 @@ radar_visualization({
     inactive: "#ddd"
   },
   title: "SPT Development Tech Radar",
-  date: "2023.05",
+  date: "2023.08",
   quadrants: [
     { name: "Languages & Frameworks" },
     { name: "Infrastructure & DevOps" },
@@ -56,7 +56,7 @@ radar_visualization({
         "ring": ASSESS,
         "label": "Contract Testing",
         "active": true,
-        "moved": MOVED_IN
+        "moved": NOT_MOVED
       },
       {
         "quadrant": TOOLS_AND_TECHNIQUES,
@@ -112,7 +112,7 @@ radar_visualization({
         "ring": HOLD,
         "label": "Bitbucket",
         "active": true,
-        "moved": MOVED_OUT
+        "moved": NOT_MOVED
       },
       {
         "quadrant": TOOLS_AND_TECHNIQUES,
@@ -140,7 +140,7 @@ radar_visualization({
         "ring": TRIAL,
         "label": "Scrum",
         "active": true,
-        "moved": MOVED_OUT
+        "moved": NOT_MOVED
       },
       {
         "quadrant": TOOLS_AND_TECHNIQUES,
@@ -158,8 +158,22 @@ radar_visualization({
       },
       {
         "quadrant": TOOLS_AND_TECHNIQUES,
-        "ring": ASSESS,
+        "ring": TRIAL,
+        "label": "Molecule",
+        "active": true,
+        "moved": NOT_MOVED
+      },
+      {
+        "quadrant": TOOLS_AND_TECHNIQUES,
+        "ring": HOLD,
         "label": "CodeWhisperer",
+        "active": true,
+        "moved": MOVED_OUT
+      },
+      {
+        "quadrant": TOOLS_AND_TECHNIQUES,
+        "ring": TRIAL,
+        "label": "IntelliJ AI Assistant",
         "active": true,
         "moved": NOT_MOVED
       },
@@ -216,17 +230,17 @@ radar_visualization({
       },
       {
         "quadrant": DATASTORES_AND_DATA_MANAGEMENT,
-        "ring": TRIAL,
+        "ring": ADOPT,
         "label": "RabbitMQ",
         "active": true,
-        "moved": NOT_MOVED
+        "moved": MOVED_IN
       },
       {
         "quadrant": DATASTORES_AND_DATA_MANAGEMENT,
         "ring": HOLD,
         "label": "AWS DynamoDB",
         "active": true,
-        "moved": MOVED_OUT
+        "moved": NOT_MOVED
       },
       {
         "quadrant": DATASTORES_AND_DATA_MANAGEMENT,
@@ -296,7 +310,7 @@ radar_visualization({
         "ring": ADOPT,
         "label": "Redis",
         "active": true,
-        "moved": MOVED_IN
+        "moved": NOT_MOVED
       },
 
       // Infrastructure & Devops
@@ -319,7 +333,7 @@ radar_visualization({
         "ring": HOLD,
         "label": "AWS Cognito",
         "active": true,
-        "moved": MOVED_OUT
+        "moved": NOT_MOVED
       },
       {
         "quadrant": INFRASTRUCTURE_AND_DEVOPS,
@@ -340,7 +354,7 @@ radar_visualization({
         "ring": HOLD,
         "label": "AWS CloudFormation",
         "active": true,
-        "moved": MOVED_OUT
+        "moved": NOT_MOVED
       },
       {
         "quadrant": INFRASTRUCTURE_AND_DEVOPS,
@@ -354,7 +368,7 @@ radar_visualization({
         "ring": ADOPT,
         "label": "AWS Lambda",
         "active": true,
-        "moved": MOVED_IN
+        "moved": NOT_MOVED
       },
       {
         "quadrant": INFRASTRUCTURE_AND_DEVOPS,
@@ -375,14 +389,14 @@ radar_visualization({
         "ring": ADOPT,
         "label": "Terraform",
         "active": true,
-        "moved": MOVED_IN
+        "moved": NOT_MOVED
       },
       {
         "quadrant": INFRASTRUCTURE_AND_DEVOPS,
         "ring": HOLD,
         "label": "AWS CDK",
         "active": true,
-        "moved": MOVED_OUT
+        "moved": NOT_MOVED
       },
       {
         "quadrant": INFRASTRUCTURE_AND_DEVOPS,
@@ -396,21 +410,21 @@ radar_visualization({
         "ring": HOLD,
         "label": "Jenkins",
         "active": true,
-        "moved": MOVED_OUT
+        "moved": NOT_MOVED
       },
       {
         "quadrant": INFRASTRUCTURE_AND_DEVOPS,
         "ring": ADOPT,
         "label": "GitHub Actions",
         "active": true,
-        "moved": MOVED_IN
+        "moved": NOT_MOVED
       },
       {
         "quadrant": INFRASTRUCTURE_AND_DEVOPS,
         "ring": HOLD,
         "label": "Travis",
         "active": true,
-        "moved": MOVED_OUT
+        "moved": NOT_MOVED
       },
       {
         "quadrant": INFRASTRUCTURE_AND_DEVOPS,
@@ -447,7 +461,7 @@ radar_visualization({
         "ring": TRIAL,
         "label": "Cypress",
         "active": true,
-        "moved": MOVED_IN
+        "moved": NOT_MOVED
       },
       {
         "quadrant": LANGUAGES_AND_FRAMEWORKS,
@@ -465,7 +479,7 @@ radar_visualization({
       },
       {
         "quadrant": LANGUAGES_AND_FRAMEWORKS,
-        "ring": TRIAL,
+        "ring": HOLD,
         "label": "MyBatis",
         "active": true,
         "moved": MOVED_OUT
@@ -531,7 +545,7 @@ radar_visualization({
         "ring": HOLD,
         "label": "TypeScript",
         "active": true,
-        "moved": MOVED_OUT
+        "moved": NOT_MOVED
       },
       {
         "quadrant": LANGUAGES_AND_FRAMEWORKS,
@@ -609,6 +623,13 @@ radar_visualization({
         "label": "Mule",
         "active": true,
         "moved": NOT_MOVED
+      },
+      {
+        "quadrant": LANGUAGES_AND_FRAMEWORKS,
+        "ring": HOLD,
+        "label": "Camel",
+        "active": true,
+        "moved": MOVED_OUT
       },
     ]
 });
