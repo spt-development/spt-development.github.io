@@ -183,8 +183,16 @@ section.bg-dark a {
     border-radius: 100%;
 }
 
+
+/* The minimum heights ensure that the carousel items don't expand and contract based on the content */
 .carousel .carousel-item {
-    min-height: 15em;
+    min-height: 27em;
+}
+
+@include media-breakpoint-up(sm) {
+    .carousel .carousel-item {
+        min-height: 15em;
+    }
 }
 
 /* Info cards */
