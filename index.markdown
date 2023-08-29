@@ -339,3 +339,30 @@ title: "Software Consultants"
     </div>
   </div>
 </div>
+
+{%- for post in site.posts -%}
+  {%- if post.news -%}
+    <div class="row mb-3">
+      <div class="col-12 col-md-6">
+        <div class="splash-img position-relative">
+          <a href="{{ post.url | relative_url }}" class="fs-4" title="{{post.title}}">
+            {% picture jpt-webp /assets/images/splash-blog.jpg --img class="d-block w-100" loading="lazy" --alt {{ post.title }} %}
+          </a>
+        </div>
+      </div>
+      <div class="d-flex align-items-center col-12 col-md-6">
+        <section class="pt-2 pt-md-0 mb-lg-5">
+          <h2 class="fs-3">Latest News</h2>
+          <h3 class="fs-5 text-secondary">{{ post.title | escape }}</h3>
+          <p>{{ post.excerpt | markdownify | remove: '<p class="lead">' | remove: '</p>' }}</p>
+          <a href="{{ post.url | relative_url }}" class="fs-4" title="{{post.title}}">
+              Read more<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+              </svg>
+          </a>
+        </section>
+      </div>
+    </div>
+    {% break %}
+  {%- endif -%}
+{%- endfor -%}

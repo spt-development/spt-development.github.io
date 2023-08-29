@@ -19,6 +19,7 @@ excerpt: |
   As always, the source is available on [GitHub](https://github.com/spt-development) and the artifacts are also available in
   [Maven Central](https://mvnrepository.com/artifact/com.spt-development) for easy inclusion in your own <em>Java</em> projects.</span>
   {: class="lead"}
+news: true
 ---
 {{ page.excerpt | remove: '<span class="d-inline d-md-none d-xl-inline">' | remove: '</span>' }}
 
