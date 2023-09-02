@@ -5,14 +5,18 @@ permalink: /company-overview
 description: >-
   We are software consultants with many years experience in the IT industry, designing, building and successfully delivering bespoke 
   software solutions. We are passionate about technology, code and delivering high quality software to meet our customer's needs.
-
+image:
+  path: /assets/images/cards/card-company-overview.jpg
+  type: image/jpeg
+  height: 1200
+  width: 630
 ---
 
 <section class="row">
   <div class="col">
     <div class="col-12 col-md-6 ms-md-2 mb-3 mb-md-1 float-md-end">
       <div class="splash-img position-relative">
-        {% picture jpt-webp /assets/images/splash-logo.jpg --img class="d-block w-100" loading="eager" --alt {{ page.title }} %}
+        {% picture jpt-webp /assets/images/splash-company-overview.jpg --img class="d-block w-100" loading="eager" --alt {{ page.title }} %}
       </div>
     </div>
     <h1 class="fs-3 mt-3">{{ page.title | escape }}</h1>
