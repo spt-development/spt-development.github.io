@@ -34,7 +34,7 @@ radar_visualization({
     inactive: "#ddd"
   },
   title: "SPT Development Tech Radar",
-  date: "2023.11",
+  date: "2024.02",
   quadrants: [
     { name: "Languages & Frameworks" },
     { name: "Infrastructure & DevOps" },
@@ -95,17 +95,17 @@ radar_visualization({
       },
       {
         "quadrant": TOOLS_AND_TECHNIQUES,
-        "ring": HOLD,
+        "ring": ASSESS,
         "label": "Trello",
         "active": true,
-        "moved": NOT_MOVED
+        "moved": MOVED_IN
       },
       {
         "quadrant": TOOLS_AND_TECHNIQUES,
-        "ring": ADOPT,
+        "ring": HOLD,
         "label": "Confluence",
         "active": true,
-        "moved": NOT_MOVED
+        "moved": MOVED_OUT
       },
       {
         "quadrant": TOOLS_AND_TECHNIQUES,
@@ -158,24 +158,24 @@ radar_visualization({
       },
       {
         "quadrant": TOOLS_AND_TECHNIQUES,
-        "ring": TRIAL,
+        "ring": ADOPT,
         "label": "Molecule",
         "active": true,
-        "moved": NOT_MOVED
+        "moved": MOVED_IN
       },
       {
         "quadrant": TOOLS_AND_TECHNIQUES,
         "ring": HOLD,
         "label": "CodeWhisperer",
         "active": true,
-        "moved": MOVED_OUT
+        "moved": NOT_MOVED
       },
       {
         "quadrant": TOOLS_AND_TECHNIQUES,
-        "ring": TRIAL,
+        "ring": HOLD,
         "label": "IntelliJ AI Assistant",
         "active": true,
-        "moved": NOT_MOVED
+        "moved": MOVED_OUT
       },
       {
         "quadrant": TOOLS_AND_TECHNIQUES,
@@ -195,6 +195,21 @@ radar_visualization({
         "quadrant": TOOLS_AND_TECHNIQUES,
         "ring": ADOPT,
         "label": "OpenAPI (Swagger)",
+        "active": true,
+        "moved": NOT_MOVED
+      },
+      {
+        "quadrant": TOOLS_AND_TECHNIQUES,
+        "ring": TRIAL,
+        "label": "GitArchitecture",
+        "active": true,
+        "moved": MOVED_IN,
+        "link": "https://kylegenebrown.medium.com/gitarchitecture-a-better-way-to-capture-architectural-decisions-b3574a3d604"
+      },
+      {
+        "quadrant": TOOLS_AND_TECHNIQUES,
+        "ring": ADOPT,
+        "label": "CI/CD",
         "active": true,
         "moved": NOT_MOVED
       },
@@ -233,7 +248,7 @@ radar_visualization({
         "ring": ADOPT,
         "label": "RabbitMQ",
         "active": true,
-        "moved": MOVED_IN
+        "moved": NOT_MOVED
       },
       {
         "quadrant": DATASTORES_AND_DATA_MANAGEMENT,
@@ -311,6 +326,13 @@ radar_visualization({
         "label": "Redis",
         "active": true,
         "moved": NOT_MOVED
+      },
+      {
+        "quadrant": DATASTORES_AND_DATA_MANAGEMENT,
+        "ring": ASSESS,
+        "label": "OpenSearch",
+        "active": true,
+        "moved": MOVED_IN
       },
 
       // Infrastructure & Devops
@@ -447,6 +469,13 @@ radar_visualization({
         "active": true,
         "moved": NOT_MOVED
       },
+      {
+        "quadrant": INFRASTRUCTURE_AND_DEVOPS,
+        "ring": TRIAL,
+        "label": "Docker Swarm",
+        "active": true,
+        "moved": MOVED_IN
+      },
 
       // Languages & Frameworks
       {
@@ -482,7 +511,7 @@ radar_visualization({
         "ring": HOLD,
         "label": "MyBatis",
         "active": true,
-        "moved": MOVED_OUT
+        "moved": NOT_MOVED
       },
       {
         "quadrant": LANGUAGES_AND_FRAMEWORKS,
@@ -528,10 +557,24 @@ radar_visualization({
       },
       {
         "quadrant": LANGUAGES_AND_FRAMEWORKS,
-        "ring": ASSESS,
+        "ring": ADOPT,
         "label": "Rust",
         "active": true,
-        "moved": NOT_MOVED
+        "moved": MOVED_IN
+      },
+      {
+        "quadrant": LANGUAGES_AND_FRAMEWORKS,
+        "ring": ASSESS,
+        "label": "Actix Web",
+        "active": true,
+        "moved": MOVED_IN
+      },
+      {
+        "quadrant": LANGUAGES_AND_FRAMEWORKS,
+        "ring": ASSESS,
+        "label": "Rocket",
+        "active": true,
+        "moved": MOVED_IN
       },
       {
         "quadrant": LANGUAGES_AND_FRAMEWORKS,
@@ -629,7 +672,21 @@ radar_visualization({
         "ring": HOLD,
         "label": "Camel",
         "active": true,
-        "moved": MOVED_OUT
+        "moved": NOT_MOVED
+      },
+      {
+        "quadrant": LANGUAGES_AND_FRAMEWORKS,
+        "ring": ASSESS,
+        "label": "Go",
+        "active": true,
+        "moved": MOVED_IN
+      },
+      {
+        "quadrant": LANGUAGES_AND_FRAMEWORKS,
+        "ring": ASSESS,
+        "label": "GraalVM",
+        "active": true,
+        "moved": MOVED_IN
       },
     ]
 });
