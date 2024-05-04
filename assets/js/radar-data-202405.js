@@ -34,7 +34,7 @@ radar_visualization({
     inactive: "#ddd"
   },
   title: "SPT Development Tech Radar",
-  date: "2024.02",
+  date: "2024.05",
   quadrants: [
     { name: "Languages & Frameworks" },
     { name: "Infrastructure & DevOps" },
@@ -98,14 +98,14 @@ radar_visualization({
         "ring": ASSESS,
         "label": "Trello",
         "active": true,
-        "moved": MOVED_IN
+        "moved": NOT_MOVED
       },
       {
         "quadrant": TOOLS_AND_TECHNIQUES,
         "ring": HOLD,
         "label": "Confluence",
         "active": true,
-        "moved": MOVED_OUT
+        "moved": NOT_MOVED
       },
       {
         "quadrant": TOOLS_AND_TECHNIQUES,
@@ -161,7 +161,7 @@ radar_visualization({
         "ring": ADOPT,
         "label": "Molecule",
         "active": true,
-        "moved": MOVED_IN
+        "moved": NOT_MOVED
       },
       {
         "quadrant": TOOLS_AND_TECHNIQUES,
@@ -175,7 +175,7 @@ radar_visualization({
         "ring": HOLD,
         "label": "IntelliJ AI Assistant",
         "active": true,
-        "moved": MOVED_OUT
+        "moved": NOT_MOVED
       },
       {
         "quadrant": TOOLS_AND_TECHNIQUES,
@@ -203,7 +203,7 @@ radar_visualization({
         "ring": TRIAL,
         "label": "GitArchitecture",
         "active": true,
-        "moved": MOVED_IN,
+        "moved": NOT_MOVED,
         "link": "https://kylegenebrown.medium.com/gitarchitecture-a-better-way-to-capture-architectural-decisions-b3574a3d604"
       },
       {
@@ -212,6 +212,14 @@ radar_visualization({
         "label": "CI/CD",
         "active": true,
         "moved": NOT_MOVED
+      },
+      {
+        "quadrant": TOOLS_AND_TECHNIQUES,
+        "ring": ASSESS,
+        "label": "Lapin",
+        "active": true,
+        "moved": MOVED_IN,
+        "link": "https://docs.rs/lapin/latest/lapin/"
       },
 
       // Datastores & Data Management
@@ -332,7 +340,7 @@ radar_visualization({
         "ring": ASSESS,
         "label": "OpenSearch",
         "active": true,
-        "moved": MOVED_IN
+        "moved": NOT_MOVED
       },
 
       // Infrastructure & Devops
@@ -474,7 +482,7 @@ radar_visualization({
         "ring": TRIAL,
         "label": "Docker Swarm",
         "active": true,
-        "moved": MOVED_IN
+        "moved": NOT_MOVED
       },
 
       // Languages & Frameworks
@@ -560,21 +568,22 @@ radar_visualization({
         "ring": ADOPT,
         "label": "Rust",
         "active": true,
-        "moved": MOVED_IN
+        "moved": NOT_MOVED
       },
       {
         "quadrant": LANGUAGES_AND_FRAMEWORKS,
-        "ring": ASSESS,
+        "ring": ADOPT,
         "label": "Actix Web",
         "active": true,
-        "moved": MOVED_IN
+        "moved": MOVED_IN,
+        "link": "https://actix.rs/"
       },
       {
         "quadrant": LANGUAGES_AND_FRAMEWORKS,
         "ring": ASSESS,
         "label": "Rocket",
         "active": true,
-        "moved": MOVED_IN
+        "moved": NOT_MOVED
       },
       {
         "quadrant": LANGUAGES_AND_FRAMEWORKS,
@@ -679,14 +688,14 @@ radar_visualization({
         "ring": ASSESS,
         "label": "Go",
         "active": true,
-        "moved": MOVED_IN
+        "moved": NOT_MOVED
       },
       {
         "quadrant": LANGUAGES_AND_FRAMEWORKS,
         "ring": ASSESS,
         "label": "GraalVM",
         "active": true,
-        "moved": MOVED_IN
+        "moved": NOT_MOVED
       },
     ]
 });
