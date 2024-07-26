@@ -18,28 +18,28 @@ to use [ffmpeg](https://ffmpeg.org/) to convert the downloaded file from [mp4](h
 [mp3](https://en.wikipedia.org/wiki/MP3), before using [Apple Music](https://en.wikipedia.org/wiki/Apple_Music) to burn the music to CD.
 
 ## Downloading audio files from Facebook Messenger
-{: class="fs-3" }
+{: class="fs-4" }
 
 Facebook used to make it fairly straight forward to download audio files from Messanger, for some reason they now make it as difficult as
 possible. These steps were performed in Google Chrome on Mac OS, but shouldn't vary too much from browser to browser, or OS to OS. They
 will need to be performed on a desktop rather than mobile device however.
 
 ### 1. Open messages
-{: class="fs-4" }
+{: class="fs-5" }
 
 Browse to the messages containing the audio file(s).
 
 ![facebook messenger](/assets/images/2022-09-24-dance-dad-burning-cds/facebook-messenger.jpeg){:class="img-fluid"}
 
 ### 2. Open up browser dev tools
-{: class="fs-4" }
+{: class="fs-5" }
 
 Hit F12 or however you prefer to open the browser dev tools and then select the network tab.
 
 ![idev tools](/assets/images/2022-09-24-dance-dad-burning-cds/dev-tools.jpeg){:class="img-fluid"}
 
 ### 3. Play the audio file
-{: class="fs-4" }
+{: class="fs-5" }
 
 Click on the audio file to start it playing. If you have already played it, then refresh the Facebook Messenger page first and clear out the 
 network history to make it easier to see which audio file was downloaded when you hit play. Then right click the audio file that appears
@@ -52,7 +52,7 @@ I found no way of tying an mp4 file to a particular message, so I had to right c
 one I wanted.]
 
 ## Converting mp4 to mp3
-{: class="fs-3" }
+{: class="fs-4" }
 
 If you received an mp3 file, this step can be skipped. If you received an mp4 for example, then you will need to convert it
 to an mp3 file. If you try buring an mp4 file to CD, you will find that only the first 6 seconds gets written to the CD. I used ffmpeg
@@ -61,10 +61,10 @@ that I had previously installed with [brew](https://formulae.brew.sh/formula/ffm
 {% gist c65fe53fa7f379108e3fe6e956254c48 %}
 
 ## Burning the audio file to CD
-{: class="fs-3" }
+{: class="fs-4" }
 
 ### 1. Create a new playlist
-{: class="fs-4" }
+{: class="fs-5" }
 
 Open Apple Music and create a new playlist.
 
@@ -73,14 +73,14 @@ Open Apple Music and create a new playlist.
 ![new playlist](/assets/images/2022-09-24-dance-dad-burning-cds/new-play-list-2.jpeg){:class="img-fluid"}
 
 ### 2. Add the audio file to the playlist
-{: class="fs-4" }
+{: class="fs-5" }
 
 Find the previously downloaded/converted file in finder and drag it and drop it on to the newly created playlist in Apple Music.
 
 ![new playlist](/assets/images/2022-09-24-dance-dad-burning-cds/new-play-list-3.jpeg){:class="img-fluid"}
 
 ### 3. Burn the CD
-{: class="fs-4" }
+{: class="fs-5" }
 
 With a blank CD already inserted into the CD burner, right click the newly created playlist and select "Burn Playlist to Disc..."; in
 the dialog that is opened, leave the defaults selected and click "Burn" - the "Audio CD" format seems to be the most likely format to work,
@@ -91,6 +91,6 @@ in a random CD player, but make sure you test the burnt CD!
 ![burn cd](/assets/images/2022-09-24-dance-dad-burning-cds/burn-cd-2.jpeg){:class="img-fluid"}
 
 ### 4. Test the CD!!!
-{: class="fs-4" }
+{: class="fs-5" }
 
 I tested it in an old CD player to give confidence that it will probably work at the dance festival.

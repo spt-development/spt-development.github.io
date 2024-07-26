@@ -21,7 +21,7 @@ excerpt: |
 {{ page.excerpt | remove: '<span class="d-inline d-md-none d-xl-inline">' | remove: '</span>' }}
 
 ## Micrometer Tracing
-{: class="fs-3" }
+{: class="fs-4" }
 
 All of the code from this post can be found in the 
 [spt-development-micrometer-tracing-demo](https://github.com/spt-development/spt-development-micrometer-tracing-demo) project, which was forked
@@ -43,7 +43,7 @@ Spring Boot samples only 10% of requests to prevent overwhelming the trace backe
 property; this is not necessary for this demo where we are only logging to the console.
 
 ### Gotcha!
-{: class="fs-4" }
+{: class="fs-5" }
 
 One thing that I struggled to find mentioned in the documentation was that tracing is *switched off* by default in tests. This is 
 [intended](https://github.com/spring-projects/spring-boot/issues/31308){:target="_blank"} and therefore when I ran the tests initially, the trace 
@@ -53,7 +53,7 @@ annotation to the integration tests, which can be used to enable/disable metrics
 {% gist b785e325630c7dcb1eeaefab50df29b0 %}
 
 ## Auditing
-{: class="fs-3" }
+{: class="fs-4" }
 
 Adding the `spt-development-audit-spring-boot-starter` dependency to the project pulls in the required dependencies and automatically configures the
 auditor. Since we are going to be using the Micrometer trace ID in place of the correlation ID, we can exclude the `spt-development-cid` 
@@ -70,7 +70,7 @@ With this in place and methods annotated as described in [this post]({% post_url
 fully audited and audit events can be correlated using the trace ID.
 
 ### Actuator audit events
-{: class="fs-4" }
+{: class="fs-5" }
 
 If you are capturing actuator events as described in the previous [auditing post]({% post_url 2021-10-03-spt-development-audit-spring %}) you 
 need to inject the `Tracer` bean into your audit event listener and again use the current trace ID in place of the correlation ID.
@@ -78,7 +78,7 @@ need to inject the `Tracer` bean into your audit event listener and again use th
 {% gist c7af3532347d0d14fb35646d27d88eae %}
 
 ### JMS Propagation
-{: class="fs-4" }
+{: class="fs-5" }
 
 The demo project makes use of `JmsAuditEventWriter` simply by configuring the `spt.audit.jms.destination` property. The Micrometer trace context
 is not currently propagated in JMS messages by default; there is currently an 
@@ -90,7 +90,7 @@ the correlation ID returned by the `CorrelationIdProvider`.
 {% gist e442d6398602902177ff622bcfbf786e %}
 
 ## Logging
-{: class="fs-3" }
+{: class="fs-4" }
 
 As previously written about in more detail [here]({% post_url 2021-05-30-spt-development-cid-part-2 %}) simply add the `spt-development-logging-spring-boot-starter`
 as a dependency to get production quality logging added to your application without any further code changes. With the logging format changes above, you will then

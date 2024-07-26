@@ -41,6 +41,7 @@ We have also upgraded the [demo project](https://github.com/spt-development/spt-
 [Micrometer demo project](https://github.com/spt-development/spt-development-micrometer-tracing-demo) to Spring Boot 3.3.1 and v3.3.1 of all the libraries above.
 
 ### spt-development-logging-spring - Arbitrary bean logging support
+{: class="fs-5" }
 
 Release 3.2.0 of `spt-development-logging-spring` introduces support for logging public methods of arbitrary beans. This logging is enabled by adding the
 `EnableBeanLogging` annotation to your project. The `includeBasePackageClasses` must contain at least one class and enables logging of Spring beans from the same package as any of the classes specified.

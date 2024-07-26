@@ -21,13 +21,13 @@ Just to reiterate, there is nothing wrong with versions 2.0.1 to 2.0.11 other th
 {: class="lead"}
 
 ## Automated Release
-{: class="fs-3" }
+{: class="fs-4" }
 
 Below is a summary of some of the problems we ran into whilst trying to automate the release process with
 [Travis CI](https://www.travis-ci.com) and the solutions we found.
 
 ### `maven-release-plugin` requires full clone of repository
-{: class="fs-4" }
+{: class="fs-5" }
 
 `mvn release:prepare release:perform -B` will update the versions and kick off the Maven `deploy` phase - we already had
 the relevant plugins configured to deploy to sonatype with `mvn deploy -Prelease`. Out of the box, Travis performs
@@ -41,7 +41,7 @@ The other commands in the install phase are used to capture the version number f
 signing the jars uploaded to Sonatype.
 
 ### Deploy stage requires values from maven `settings.xml`
-{: class="fs-4" }
+{: class="fs-5" }
 
 Add encrypted environment variables and reference them in a custom settings file referenced with the `--settings` 
 mvn parameter.
@@ -49,14 +49,14 @@ mvn parameter.
 {% gist 08ac0b5568df5e96510dd5025d3194d3 %}
 
 ### Inability to encrypt special characters in environment variables properly
-{: class="fs-4" }
+{: class="fs-5" }
 
 `cd` to a clone of the repository and use the following command, entering `ENV_VAR=value` when prompted:
 
 {% gist 076ce4d2d6597d7f96ee94b49c519fa6 %}
 
 ### Prevent checkins by `maven-release-plugin` kicking off another build (and release)
-{: class="fs-4" }
+{: class="fs-5" }
 
 Use the `scmCommentPrefix` setting of `maven-release-plugin` to include `[skip travis]`.
 
@@ -67,7 +67,7 @@ Note also the `goals` configuration setting with the value `deploy`. If a distri
 To upload to Github, we need to use the releases provider; specifying `deploy` runs the `deploy` phase instead.
 
 ### Create the release in Github
-{: class="fs-4" }
+{: class="fs-5" }
 
 The Travis [Github releases provider](https://docs.travis-ci.com/user/deployment/releases/) makes this straight forward, 
 however it is tightly coupled to tagging a particular version of the code. In order to prevent an infinite loop of
