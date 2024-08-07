@@ -34,7 +34,7 @@ radar_visualization({
     inactive: "#ddd"
   },
   title: "SPT Development Tech Radar",
-  date: "2024.05",
+  date: "2024.08",
   quadrants: [
     { name: "Languages & Frameworks" },
     { name: "Infrastructure & DevOps" },
@@ -218,7 +218,7 @@ radar_visualization({
         "ring": ASSESS,
         "label": "Lapin",
         "active": true,
-        "moved": MOVED_IN,
+        "moved": NOT_MOVED,
         "link": "https://docs.rs/lapin/latest/lapin/"
       },
 
@@ -575,7 +575,7 @@ radar_visualization({
         "ring": ADOPT,
         "label": "Actix Web",
         "active": true,
-        "moved": MOVED_IN,
+        "moved": NOT_MOVED,
         "link": "https://actix.rs/"
       },
       {
