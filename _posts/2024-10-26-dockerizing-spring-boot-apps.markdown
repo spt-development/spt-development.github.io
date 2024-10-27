@@ -5,6 +5,11 @@ date:   2024-10-26 10:00:00 +0000
 author: Simon Taylor
 categories: spring docker
 permalink: /spring/docker/2024/10/26/dockerizing-spring-boot-apps
+image:
+  path: /assets/images/cards/card-docker.jpg
+  type: image/jpeg
+  height: 1200
+  width: 630
 excerpt: |
   Creating a Docker image for a Spring Boot application allows you to containerize your app, making it easier to run in various environments without 
   worrying about dependencies. In this blog, I'll guide you through creating a Docker image for a Spring Boot app using the 
