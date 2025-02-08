@@ -34,7 +34,7 @@ radar_visualization({
     inactive: "#ddd"
   },
   title: "SPT Development Tech Radar",
-  date: "2024.08",
+  date: "2025.02",
   quadrants: [
     { name: "Languages & Frameworks" },
     { name: "Infrastructure & DevOps" },

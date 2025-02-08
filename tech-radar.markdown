@@ -12,7 +12,7 @@ cdn-scripts:
   - https://d3js.org/d3.v4.min.js
 scripts:
   - /assets/js/radar-0.7.js
-  - /assets/js/radar-data-202408.js
+  - /assets/js/radar-data-202502.js
 ---
 <h1 class="d-none">{{ page.title | escape }}</h1>
 <div class="svg-container">
